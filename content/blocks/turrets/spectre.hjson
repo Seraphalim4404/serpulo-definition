@@ -74,11 +74,13 @@ ammoTypes: {
       width: 16
       hitSize: 5
       damage: 110
-      speed: -8
+      speed: 8
       pierce: true
       pierceBuilding: true
       pierceCap: 5
       pierceDamageFactor: 0.2
+
+      fragRandomSpread: 180
 
       frontColor: edc39c
       backColor: ddae82
