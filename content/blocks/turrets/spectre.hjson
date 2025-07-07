@@ -1,16 +1,18 @@
 reload: 23
 shoot: {
 type: ShootMulti
-source: ShootAlternate
-dest: [
-{
-type: ShootBarrel
-shots: 2
-shotDelay: 0
-barrels: [
-0, 4, 0
-4, 0, 0
-]
-}
-]
+source: {
+  type: shootBarrel
+  shots: 4
+  shotDelay: 2
+  barrels: [
+  4, 0, 0
+    ]
+  type: shootBarrel
+  shots: 4
+  shotDelay: 2
+  barrels: [
+  -4, 0, 0
+    ]
+  }
 }
