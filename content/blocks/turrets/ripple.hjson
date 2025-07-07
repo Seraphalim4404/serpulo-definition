@@ -23,4 +23,31 @@ ammoTypes: {
     hitFfect: blastExplosion
     despawnEfect: hitBulletColor
   }
+  phase-fabric: {
+    type: ArtilleryBulleType
+    height: 13
+    width: 13
+    hitSize: 18
+    splashDamage: 20
+    splashDamageRadius: 42
+    knockback: 0.8
+    speed: 2.5
+    lifetime: 80
+
+    fragBullets: 1
+    fragBullet: {
+      type: BasicBulletType
+
+    }
+    frontColor: edc39c
+    backColor: ddae82
+    hitColor: ddae82
+    trailColor: ddae82
+
+    trailLength: 5
+    trailWidth: 3
+
+    hitFfect: blastExplosion
+    despawnEfect: hitBulletColor
+  }
 }
