@@ -6,3 +6,50 @@ shoot: {
   shots: 2
   shotDelay: 0
 }
+ammoTypes: {
+  copper: {
+    type: BasicBulletType
+    height: 9
+    width: 7
+    damage: 9
+    lifetime: 60
+    speed: 2.5
+    ammoMultiplier: 1
+    frontColor: eac1a8
+    backColor:  d39169
+    hitColor: d39169
+  }
+  graphite: {
+    type: BasicBulletType
+    height: 12
+    width: 9
+    damage: 19
+    lifetime: 60
+    speed: 3.5
+    ammoMultiplier: 2
+    
+    rangeChange: 16
+    
+    frontColor: 7d89d8
+    backColor: dae1ee
+    hitColor: dae1ee
+  }
+  silicon: {
+    type: BasicBulletType
+    height: 9
+    width: 7
+    damage: 13
+    lifetime: 60
+    speed: 3
+    ammoMultiplier: 0.5
+    
+    reloadMultiplier: 1.5
+    
+    frontColor: 707594
+    backColor: 999ba0
+    hitColor: 999ba0
+
+    trailLength: 5
+    trailWidth: 1.5
+  }
+}
