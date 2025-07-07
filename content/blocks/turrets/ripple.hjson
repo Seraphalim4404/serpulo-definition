@@ -41,6 +41,27 @@ ammoTypes: {
       height: 16
       width: 16
       hitSize: 10
+      damage: 50
+      splashDamage: 200
+      splashDamageRadius: 38
+      speed: 0
+      lifetime: 7200
+
+      collidesAir: false
+      collidesTiles: true
+
+      frontColor: edc39c
+      backColor: ddae82
+      hitColor: ddae82
+      trailColor: ddae82
+
+      trailEffect: disperseTrail
+      color: ddae82
+      trailRotation: true
+      trailChance: 0.4
+
+      hitFfect: blastExplosion
+      despawnEfect: hitBulletColor
     }
     frontColor: edc39c
     backColor: ddae82
