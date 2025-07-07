@@ -2,7 +2,7 @@ range: 232
 consumes: {
   power: 5.25
 }
-damage: 1.5
+damage: 0.166666666666667
 force: 24
 scaledForce: 18
 status: slow
