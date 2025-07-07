@@ -13,7 +13,7 @@ ammoTypes: {
     width: 7
     damage: 9
     lifetime: 60
-    speed: 2.5
+    speed: 3
     ammoMultiplier: 1
     
     frontColor: eac1a8
