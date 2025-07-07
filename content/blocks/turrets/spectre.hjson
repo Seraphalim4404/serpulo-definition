@@ -6,7 +6,7 @@ shoot: {
     {
       type: shootBarrel
       shots: 5
-      shotDelay: 2
+      shotDelay: 3
       barrels: [
       -8, 0, 0
       ]
@@ -14,7 +14,7 @@ shoot: {
     {
       type: shootBarrel
       shots: 5
-      shotDelay: 2
+      shotDelay: 3
       barrels: [
       8, 0, 0
       ]
