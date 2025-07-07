@@ -33,11 +33,14 @@ ammoTypes: {
     knockback: 0.8
     speed: 2.5
     lifetime: 80
+    collidesTiles: false
 
     fragBullets: 1
     fragBullet: {
       type: BasicBulletType
-
+      height: 16
+      width: 16
+      hitSize: 10
     }
     frontColor: edc39c
     backColor: ddae82
