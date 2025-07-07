@@ -65,7 +65,7 @@ ammoTypes: {
     speed: 8
     pierce: true
     pierceBuilding: true
-    pierceCap: #
+    pierceCap: 1
 
     reloadMultiplier: 0.75
 
@@ -82,7 +82,7 @@ ammoTypes: {
       speed: -10
       pierce: true
       pierceBuilding: true
-      pierceCap: 2
+      pierceCap: 1
 
       frontColor: edc39c
       backColor: ddae82
