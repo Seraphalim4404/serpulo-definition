@@ -73,7 +73,7 @@ ammoTypes: {
     trailEffect: disperseTrail
     color: ddae82
     trailRotation: true
-    trailChance: 0.4
+    trailChance: 0.24
 
     hitFfect: blastExplosion
     despawnEfect: hitBulletColor
