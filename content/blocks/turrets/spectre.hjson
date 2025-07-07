@@ -1,3 +1,4 @@
+ammoPerShot: 3
 ammoTypes: {
   graphite: {
     type: BasicBulletType
@@ -7,7 +8,7 @@ ammoTypes: {
     damage: 50
     speed: 7.5
     knockback: 0.3
-    ammoMultiplier: 4
+    ammoMultiplier: 12
     
     reloadMultiplier: 1.7
 
@@ -30,6 +31,7 @@ ammoTypes: {
     pierceBuilding: true
     pierceCap: 2
     knockback: 0.7
+    ammoMultiplier: 3
 
     frontColor: f595be
     backColor: ffffff
@@ -46,6 +48,7 @@ ammoTypes: {
     pierce: true
     pierceBuilding: true
     pierceCap: 2
+    ammoMultiplier: 3
 
     makeFire: true
     splashDamage: 20
