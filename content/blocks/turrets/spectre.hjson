@@ -11,7 +11,7 @@ shoot: {
     }
     {
       type: shootBarrel
-      barrels: [4, 0, 0]
+      barrels: [-4, 0, 0]
     }
   ]
 }
