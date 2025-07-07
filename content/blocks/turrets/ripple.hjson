@@ -1,0 +1,24 @@
+ammoTypes: {
+  blast-compound: {
+    type: ArtilleryBulletType
+    height: 14
+    width: 14
+    splashDamage: 68
+    splashDamageRadius: 53
+    knockback: 1
+    lifetime: 80
+    collidesTiles: false
+    ammoMultiplier: 4
+
+    status: blasted
+    statusDuration: 660
+
+    frontColor: eeab89
+    backColor: e9665b
+    hitColor: e9665b
+    trailColor: e9665b
+
+    hitFfect: blastExplosion
+    despawnEfect: hitBulletColor
+  }
+}
