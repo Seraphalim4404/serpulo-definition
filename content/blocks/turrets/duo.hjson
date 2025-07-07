@@ -50,6 +50,7 @@ ammoTypes: {
     frontColor: 707594
     backColor: 999ba0
     hitColor: 999ba0
+    trailColor: 999ba0
 
     trailLength: 5
     trailWidth: 1.5
