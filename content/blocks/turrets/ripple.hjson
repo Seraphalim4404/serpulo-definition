@@ -49,6 +49,8 @@ ammoTypes: {
       speed: 0
       lifetime: 2400
 
+      shrinkY: 0
+
       collidesAir: false
       collidesTiles: true
 
