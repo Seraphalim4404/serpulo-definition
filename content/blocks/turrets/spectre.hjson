@@ -1,8 +1,60 @@
-reload: 6
-shoot: {
-  type: shootAlternate
-  barrels: 2
-  spread: 8
-  shots: 2
-  mirror: true
-}
+ammoTypes: {
+  graphite: {
+    type: BasicBulletType
+    height: 21
+    width: 15
+    hitSize: 4.8
+    damage: 50
+    speed: 7.5
+    knockback: 0.3
+    ammoMultiplier: 4
+    
+    reloadMultiplier: 1.7
+
+    frontColor: 7d89d8
+    backColor: dae1ee
+    hitColor: dae1ee
+    trailColor: dae1ee
+
+    hitEffect: hitBulletColor
+    despawnEffect: hitBulletColor
+  }
+  thorium: {
+    type: BasicBulletType
+    height: 23
+    width: 16
+    hitSize: 5
+    damage: 80
+    speed: 8
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 2
+    knockback: 0.7
+
+    frontColor: f595be
+    backColor: ffffff
+    hitColor: ffffff
+    trailColor: ffffff
+  }
+  pyratite: {
+    type: BasicBulletType
+    height: 21
+    width: 16
+    hitSize: 5
+    damage: 70
+    speed: 7
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 2
+
+    makeFire: true
+    splashDamage: 20
+    splashDamageRadius: 25
+
+    frontColor: f8ad42
+    backColor: f68021
+
+    hitEffect: fireHit
+  }
+  phase-fabric: {
+    
