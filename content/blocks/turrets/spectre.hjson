@@ -1,21 +1,21 @@
-reload: 19
+reload: 15
 shoot: {
   type: ShootMulti
   source: shootAlternate
     spread: 8
     dest: [
     {
-      type: shootBarrel
+      type: shootPattern
       shots: 4
-      shotDelay: 3
+      shotDelay: 1
       barrels: [
       4, 0, 0
       ]
     }
     {
-      type: shootBarrel
+      type: shootPattern
       shots: 4
-      shotDelay: 3
+      shotDelay: 1
       barrels: [
       -4, 0, 0
       ]
