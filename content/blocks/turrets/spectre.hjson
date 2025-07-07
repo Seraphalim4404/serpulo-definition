@@ -1,12 +1,12 @@
+reload: 23
 shoot: {
-firstShotDelay: 35
 type: ShootMulti
 source: ShootAlternate
 dest: [
 {
 type: ShootBarrel
-shots: 3
-shotDelay: 5
+shots: 8
+shotDelay: 2
 barrels: [
 0, -1, 0,
 5, -1.5, 0,
