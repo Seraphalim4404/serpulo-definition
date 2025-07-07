@@ -61,7 +61,7 @@ ammoTypes: {
       sprite: "mine-bullet"
 
       hitFfect: blastExplosion
-      despawnEfect: blastExplosion
+      despawnEfect: none
     }
     frontColor: edc39c
     backColor: ddae82
