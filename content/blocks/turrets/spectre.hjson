@@ -3,6 +3,6 @@ shoot: {
   type: shootAlternate
   barrels: 2
   spread: 8
-  shots: 1
+  shots: 2
   mirror: true
 }
