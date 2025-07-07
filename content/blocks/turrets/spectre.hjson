@@ -4,16 +4,17 @@ shoot: {
   source: shootAlternate
     shots: 4
     spread: 8
-    shotDelay: 2
     dest: [
     {
       type: shootBarrel
+      shotDelay: 2
       barrels: [
       4, 0, 0
       ]
     }
     {
       type: shootBarrel
+      shotDelay: 2
       barrels: [
       -4, 0, 0
       ]
