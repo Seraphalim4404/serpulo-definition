@@ -8,11 +8,15 @@ shoot: {
     dest: [
     {
       type: shootBarrel
-      barrels: [4, 0, 0]
+      barrels: [
+      4, 0, 0
+      ]
     }
     {
       type: shootBarrel
-      barrels: [-4, 0, 0]
+      barrels: [
+      -4, 0, 0
+      ]
     }
   ]
 }
