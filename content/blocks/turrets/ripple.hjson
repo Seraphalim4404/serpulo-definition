@@ -32,8 +32,10 @@ ammoTypes: {
     splashDamageRadius: 42
     knockback: 0.8
     speed: 2.5
-    lifetime: 80
+    lifetime: 140
     collidesTiles: false
+
+    reloadMultiplier: 0.75
 
     fragBullets: 1
     fragBullet: {
@@ -59,7 +61,7 @@ ammoTypes: {
       sprite: "mine-bullet"
 
       hitFfect: blastExplosion
-      despawnEfect: hitBulletColor
+      despawnEfect: blastExplosion
     }
     frontColor: edc39c
     backColor: ddae82
