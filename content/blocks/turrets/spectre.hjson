@@ -67,6 +67,7 @@ ammoTypes: {
     pierceBuilding: true
     pierceCap: 5
     pierceDamageFactor: 0.2
+    fragRandomSpread: 180
     fragBullets: 1
     fragBullet: {
       type: BasicBulletType
@@ -79,8 +80,6 @@ ammoTypes: {
       pierceBuilding: true
       pierceCap: 5
       pierceDamageFactor: 0.2
-
-      fragRandomSpread: 180
 
       frontColor: edc39c
       backColor: ddae82
