@@ -6,33 +6,33 @@ shoot: {
     {
       type: shootBarrel
       shots: 5
-      shotDelay: 3
+      shotDelay: 5
       barrels: [
-      -8, 0, 0
+      -4, 0, 0
       ]
     }
     {
       type: shootBarrel
       shots: 5
-      shotDelay: 3
+      shotDelay: 5
       barrels: [
-      8, 0, 0
+      4, 0, 0
       ]
     }
     {
       type: shootBarrel
       shots: 1
-      shotDelay: 5
+      shotDelay: 10
       barrels: [
-      -8, 0, 0
+      -4, 0, 0
       ]
     }
     {
       type: shootBarrel
       shots: 1
-      shotDelay: 5
+      shotDelay: 10
       barrels: [
-      8, 0, 0
+      4, 0, 0
       ]
     }
   ]
