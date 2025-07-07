@@ -4,6 +4,7 @@ shoot: {
   source: shootAlternate
     shots: 4
     spread: 8
+    shotDelay: 2
     dest: [
     {
       type: shootBarrel
