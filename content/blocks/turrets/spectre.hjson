@@ -4,21 +4,20 @@ shoot: {
   source: shootAlternate
     barrels: 2
     spread: 8
+    mirror: true
     dest: [
     {
-      type: shootAlternate
+      type: shootBarrel
       shots: 5
       shotDelay: 2
-      mirror: true
       barrels: [
       -8, 0, 0
       ]
     }
     {
-      type: shootAlternate
+      type: shootBarrel
       shots: 1
       shotDelay: 5
-      mirror: true
       barrels: [
       8, 0, 0
       ]
