@@ -1,7 +1,7 @@
 name: serpulo-definition
-displayName: "[#7d4dff]Serpulo Definition"
+displayName: "Serpulo Definition"
 author: Seraphim4404
-subtitle: The horror...
+subtitle: "[#7d4dff]The horror..."
 description: "A mod that rebalanced serpulo and all."
 version: 0.2
 minGameVersion: 146
