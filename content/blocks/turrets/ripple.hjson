@@ -3,9 +3,11 @@ ammoTypes: {
     type: ArtilleryBulletType
     height: 14
     width: 14
+    hitSize: 20
     splashDamage: 68
     splashDamageRadius: 53
     knockback: 1
+    speed: 2
     lifetime: 80
     collidesTiles: false
     ammoMultiplier: 4
