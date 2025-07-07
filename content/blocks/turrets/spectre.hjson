@@ -68,8 +68,8 @@ ammoTypes: {
     pierceCap: 5
     pierceDamageFactor: 0.2
     fragRandomSpread: 0
-    fragVelocityMin: 10
-    fragVelocityMax: 10
+    fragVelocityMin: 8
+    fragVelocityMax: 8
     fragBullets: 1
     fragBullet: {
       type: BasicBulletType
