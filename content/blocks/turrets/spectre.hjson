@@ -61,11 +61,11 @@ ammoTypes: {
     height: 23
     width: 16
     hitSize: 5
-    damage: 110
+    damage: 60
     speed: 8
     pierce: true
     pierceBuilding: true
-    pierceCap: 3
+    pierceCap: #
 
     reloadMultiplier: 0.75
 
@@ -78,11 +78,11 @@ ammoTypes: {
       height: 23
       width: 16
       hitSize: 5
-      damage: 110
+      damage: 60
       speed: -10
       pierce: true
       pierceBuilding: true
-      pierceCap: 3
+      pierceCap: 2
 
       frontColor: edc39c
       backColor: ddae82
