@@ -14,6 +14,7 @@ ammoTypes: {
     width: 7
     damage: 9
     speed: 3
+    lifetime: 60
     ammoMultiplier: 1
     
     frontColor: eac1a8
@@ -26,6 +27,7 @@ ammoTypes: {
     width: 9
     damage: 19
     speed: 3.5
+    lifetime: 60
     ammoMultiplier: 2
     
     rangeChange: 16
@@ -40,6 +42,7 @@ ammoTypes: {
     width: 7
     damage: 13
     speed: 3
+    lifetime: 60
     ammoMultiplier: 1
 
     homingPower: 0.2
