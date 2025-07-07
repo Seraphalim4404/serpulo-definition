@@ -1,4 +1,4 @@
-reload: 23
+reload: 27
 shoot: {
   type: ShootMulti
   source: shootAlternate
@@ -7,7 +7,7 @@ shoot: {
     {
       type: shootBarrel
       shots: 4
-      shotDelay: 2
+      shotDelay: 5
       barrels: [
       4, 0, 0
       ]
@@ -15,7 +15,7 @@ shoot: {
     {
       type: shootBarrel
       shots: 4
-      shotDelay: 2
+      shotDelay: 5
       barrels: [
       -4, 0, 0
       ]
