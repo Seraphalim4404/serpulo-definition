@@ -67,7 +67,8 @@ ammoTypes: {
     pierceBuilding: true
     pierceCap: 2
 
-    reloadMultiplier: 0.75
+    buildDamageMultiplier: 0.5
+    reloadMultiplier: 0.7
 
     fragRandomSpread: 0
     fragVelocityMin: 1
@@ -79,10 +80,38 @@ ammoTypes: {
       width: 16
       hitSize: 5
       damage: 60
-      speed: -10
+      speed: -8
       pierce: true
       pierceBuilding: true
       pierceCap: 2
+
+      buildDamageMultiplier: 0.5
+
+      fragRandomSpread: 0
+      fragVelocityMin: 1
+      fragVelocityMax: 1
+      fragBullets: 1
+      fragBullet: {
+        type: BasicBulletType
+        height: 23
+        width: 16
+        hitSize: 5
+        damage: 60
+        speed: 8
+        pierce: true
+        pierceBuilding: true
+        pierceCap: 2
+
+        buildDamageMultiplier: 0.5
+
+        frontColor: edc39c
+        backColor: ddae82
+        hitColor: ddae82
+        trailColor: ddae82
+
+        hitEffect: hitBulletColor
+        despawnEffect: hitBulletColor
+      }
 
       frontColor: edc39c
       backColor: ddae82
