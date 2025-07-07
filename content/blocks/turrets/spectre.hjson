@@ -8,7 +8,7 @@ ammoTypes: {
     damage: 50
     speed: 7.5
     knockback: 0.3
-    ammoMultiplier: 12
+    ammoMultiplier: 16
     
     reloadMultiplier: 1.7
 
@@ -31,7 +31,7 @@ ammoTypes: {
     pierceBuilding: true
     pierceCap: 2
     knockback: 0.7
-    ammoMultiplier: 3
+    ammoMultiplier: 5
 
     frontColor: f595be
     backColor: ffffff
@@ -48,7 +48,7 @@ ammoTypes: {
     pierce: true
     pierceBuilding: true
     pierceCap: 2
-    ammoMultiplier: 3
+    ammoMultiplier: 5
 
     makeFire: true
     splashDamage: 20
@@ -69,8 +69,9 @@ ammoTypes: {
     pierce: true
     pierceBuilding: true
     pierceCap: 2
+    ammoMultiplier: 1
 
-    buildDamageMultiplier: 0.5
+    buildingDamageMultiplier: 0.5
     reloadMultiplier: 0.7
 
     fragRandomSpread: 0
@@ -88,7 +89,7 @@ ammoTypes: {
       pierceBuilding: true
       pierceCap: 2
 
-      buildDamageMultiplier: 0.5
+      buildingDamageMultiplier: 0.5
 
       fragRandomSpread: 0
       fragVelocityMin: 1
@@ -105,7 +106,7 @@ ammoTypes: {
         pierceBuilding: true
         pierceCap: 2
 
-        buildDamageMultiplier: 0.5
+        buildingDamageMultiplier: 0.5
 
         frontColor: edc39c
         backColor: ddae82
