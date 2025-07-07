@@ -1,3 +1,4 @@
+maxAmmo: 7
 reload: 30
 shoot: {
   type: shootAlternate
