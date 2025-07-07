@@ -34,7 +34,7 @@ ammoTypes: {
     speed: 1.75
     lifetime: 260
     collidesTiles: false
-    rangeCheck: 32
+    rangeChange: 72
 
     reloadMultiplier: 0.75
 
