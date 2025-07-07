@@ -68,6 +68,8 @@ ammoTypes: {
     pierceCap: 5
     pierceDamageFactor: 0.2
     fragRandomSpread: 0
+    fragVelocityMin: -10
+    fragVelocityMax: -10
     fragBullets: 1
     fragBullet: {
       type: BasicBulletType
@@ -80,9 +82,6 @@ ammoTypes: {
       pierceBuilding: true
       pierceCap: 5
       pierceDamageFactor: 0.2
-
-      fragVelocityMin: -10
-      fragVelocityMax: -10
 
       frontColor: edc39c
       backColor: ddae82
