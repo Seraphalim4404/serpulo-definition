@@ -1,0 +1,9 @@
+range: 464
+consumes: {
+  power: 5.25
+}
+damage: 1.5
+force: 24
+scaledForce: 18
+status: slow
+statusDuration: 30
