@@ -5,12 +5,11 @@ source: ShootAlternate
 dest: [
 {
 type: ShootBarrel
-shots: 8
-shotDelay: 2
+shots: 2
+shotDelay: 0
 barrels: [
-0, -1, 0,
-5, -1.5, 0,
--5, -1.5, 0,
+0, 4, 0
+4, 0, 0
 ]
 }
 ]
