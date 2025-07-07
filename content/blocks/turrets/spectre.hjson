@@ -98,4 +98,5 @@ ammoTypes: {
 
     hitEffect: hitBulletColor
     despawnEffect: hitBulletColor
+  }
 }
