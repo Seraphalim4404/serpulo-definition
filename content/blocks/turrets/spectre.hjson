@@ -2,6 +2,8 @@ reload: 15
 shoot: {
   type: ShootMulti
   source: shootPattern
+    barrels: 2
+    spread: 8
     dest: [
     {
       type: shootBarrel
