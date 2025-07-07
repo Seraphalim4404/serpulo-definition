@@ -55,12 +55,8 @@ ammoTypes: {
       hitColor: ddae82
       trailColor: ddae82
 
-      sprite: "large-bomb-back"
-      
-      trailEffect: disperseTrail
-      color: ddae82
-      trailRotation: true
-      trailChance: 0.4
+      backSprite: "large-bomb-back"
+      sprite: "mine-bullet"
 
       hitFfect: blastExplosion
       despawnEfect: hitBulletColor
@@ -68,10 +64,11 @@ ammoTypes: {
     frontColor: edc39c
     backColor: ddae82
     hitColor: ddae82
-    trailColor: ddae82
 
-    trailLength: 5
-    trailWidth: 3
+    trailEffect: disperseTrail
+    color: ddae82
+    trailRotation: true
+    trailChance: 0.4
 
     hitFfect: blastExplosion
     despawnEfect: hitBulletColor
