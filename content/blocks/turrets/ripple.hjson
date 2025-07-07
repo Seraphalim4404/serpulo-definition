@@ -13,7 +13,7 @@ ammoTypes: {
     ammoMultiplier: 4
 
     status: blasted
-    statusDuration: 660
+    statusDuration: 720
 
     frontColor: eeab89
     backColor: e9665b
