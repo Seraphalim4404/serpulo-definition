@@ -47,7 +47,7 @@ ammoTypes: {
       splashDamage: 200
       splashDamageRadius: 38
       speed: 0
-      lifetime: 3600
+      lifetime: 2400
 
       collidesAir: false
       collidesTiles: true
