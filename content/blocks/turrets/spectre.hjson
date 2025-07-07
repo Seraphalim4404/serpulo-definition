@@ -81,6 +81,8 @@ ammoTypes: {
       pierceBuilding: true
       pierceCap: 3
 
+      reloadMultiplier: 0.75
+
       frontColor: edc39c
       backColor: ddae82
       hitColor: ddae82
