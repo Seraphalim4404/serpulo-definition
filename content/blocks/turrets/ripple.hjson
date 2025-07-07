@@ -55,6 +55,8 @@ ammoTypes: {
       hitColor: ddae82
       trailColor: ddae82
 
+      sprite: "large-bomb-back"
+      
       trailEffect: disperseTrail
       color: ddae82
       trailRotation: true
