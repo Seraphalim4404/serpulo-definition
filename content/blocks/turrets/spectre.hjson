@@ -66,6 +66,9 @@ ammoTypes: {
     pierce: true
     pierceBuilding: true
     pierceCap: 3
+
+    reloadMultiplier: 0.75
+
     fragRandomSpread: 0
     fragVelocityMin: 1
     fragVelocityMax: 1
@@ -80,8 +83,6 @@ ammoTypes: {
       pierce: true
       pierceBuilding: true
       pierceCap: 3
-
-      reloadMultiplier: 0.75
 
       frontColor: edc39c
       backColor: ddae82
