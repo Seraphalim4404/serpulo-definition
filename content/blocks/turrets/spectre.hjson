@@ -46,7 +46,7 @@ ammoTypes: {
     speed: 7
     pierce: true
     pierceBuilding: true
-    pierceCap: 
+    pierceCap: 2
 
     makeFire: true
     splashDamage: 20
