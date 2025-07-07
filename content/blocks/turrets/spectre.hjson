@@ -65,8 +65,7 @@ ammoTypes: {
     speed: 8
     pierce: true
     pierceBuilding: true
-    pierceCap: 5
-    pierceDamageFactor: 0.2
+    pierceCap: 3
     fragRandomSpread: 0
     fragVelocityMin: 1
     fragVelocityMax: 1
@@ -80,8 +79,7 @@ ammoTypes: {
       speed: -10
       pierce: true
       pierceBuilding: true
-      pierceCap: 5
-      pierceDamageFactor: 0.2
+      pierceCap: 3
 
       frontColor: edc39c
       backColor: ddae82
