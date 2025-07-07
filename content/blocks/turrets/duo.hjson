@@ -13,7 +13,6 @@ ammoTypes: {
     height: 9
     width: 7
     damage: 9
-    lifetime: 60
     speed: 3
     ammoMultiplier: 1
     
@@ -26,7 +25,6 @@ ammoTypes: {
     height: 12
     width: 9
     damage: 19
-    lifetime: 60
     speed: 3.5
     ammoMultiplier: 2
     
@@ -41,7 +39,6 @@ ammoTypes: {
     height: 9
     width: 7
     damage: 13
-    lifetime: 60
     speed: 3
     ammoMultiplier: 1
 
