@@ -57,4 +57,42 @@ ammoTypes: {
     hitEffect: fireHit
   }
   phase-fabric: {
-    
+    type: BasicBulletType
+    height: 23
+    width: 16
+    hitSize: 5
+    damage: 110
+    speed: 8
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 5
+    pierceDamageFactor: 0.2
+    fragBullets: 1
+    fragBullet: {
+      type: BasicBulletType
+      height: 23
+      width: 16
+      hitSize: 5
+      damage: 110
+      speed: -8
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 5
+      pierceDamageFactor: 0.2
+
+      frontColor: edc39c
+      backColor: ddae82
+      hitColor: ddae82
+      trailColor: ddae82
+
+      hitEffect: hitBulletColor
+      despawnEffect: hitBulletColor
+    }
+
+    frontColor: edc39c
+    backColor: ddae82
+    hitColor: ddae82
+    trailColor: ddae82
+
+    hitEffect: hitBulletColor
+    despawnEffect: hitBulletColor
