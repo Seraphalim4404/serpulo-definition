@@ -4,8 +4,8 @@ ammoTypes: {
     height: 11
     width: 11
     hitSize: 20
-    splashDamage: 36
-    splashDamageRadius: 40
+    splashDamage: 35
+    splashDamageRadius: 37
     knockback: 0.8
     speed: 3
     lifetime: 80
@@ -22,7 +22,7 @@ ammoTypes: {
     height: 11
     width: 11
     hitSize: 20
-    splashDamage: 30
+    splashDamage: 32
     splashDamageRadius: 29
     knockback: 0.8
     speed: 3
@@ -44,12 +44,38 @@ ammoTypes: {
 
     despawnEffect: hitBulletColor
   }
+  pyratite: {
+    type: ArtilleryBulletType
+    height: 13
+    width: 13
+    hitSize: 24
+    splashDamage: 38
+    splashDamageRadius: 56
+    knockback: 0.8
+    speed: 3
+    lifetime: 80
+    collidesTiles: false
+    ammoMultiplier: 2
+
+    status: burning
+    statusDuration: 780
+
+    makeFire: true
+
+    frontColor: f8ad42
+    backColor: f68021
+    hitColor: f68021
+
+    trailEffect: incedTrail
+    hitFfect: blastExplosion
+    despawnEfect: hitBulletColor
+  }
   blast-compound: {
     type: ArtilleryBulletType
     height: 14
     width: 14
     hitSize: 20
-    splashDamage: 68
+    splashDamage: 72
     splashDamageRadius: 53
     knockback: 1
     speed: 2
@@ -73,7 +99,7 @@ ammoTypes: {
     height: 13
     width: 13
     hitSize: 20
-    splashDamage: 53
+    splashDamage: 47
     splashDamageRadius: 38
     knockback: 1
     speed: 3.4
@@ -82,16 +108,16 @@ ammoTypes: {
 
     fragLifeMin: 0.5
     fragLifeMax: 1
-    fragBullets: 4
+    fragBullets: 3
     fragBullet: {
       type: ArtilleryBulletType
       height: 8
       width: 8
       hitSize: 6
-      splashDamage: 30
+      splashDamage: 33
       splashDamageRadius: 28
       speed: 0.5
-      lifetime: 60
+      lifetime: 45
 
       frontColor: fffac6
       backColor: d8d97f
