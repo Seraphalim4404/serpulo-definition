@@ -1,9 +1,34 @@
 reload: 30
 shoot: {
-  type: shootAlternate
-  barrels: 3
-  spread: 0
-  shots: 6
-  shotDelay: 15
-  mirror: false
+  type: shootMulti
+  source: {
+    type: shootAlternate
+    barrels: 3
+    dest: [
+      {
+        type: shootBarrel
+        shots: 2
+        shotDelay: 15
+        barrels: [
+        0, 0, 0
+        ]
+      }
+      {
+       type: shootBarrel
+        shots: 2
+        shotDelay: 15
+        barrels: [
+        0, 0, 0
+        ]
+      }
+      {
+        type: shootBarrel
+        shots: 2
+        shotDelay: 15
+        barrels: [
+        0, 0, 0
+        ]
+      }
+    ]
+  }
 }
