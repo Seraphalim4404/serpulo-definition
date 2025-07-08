@@ -11,12 +11,11 @@ ammoTypes: {
     lifetime: 80
     collidesTiles: false
 
-    frontColor: 
+    frontColor: 7d89d8
     backColor: e9665b
     hitColor: e9665b
     trailColor: e9665b
 
-    hitFfect: blastExplosion
     despawnEfect: hitBulletColor
   blast-compound: {
     type: ArtilleryBulletType
