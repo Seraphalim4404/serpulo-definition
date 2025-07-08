@@ -1,11 +1,22 @@
 maxAmmo: 3
-reload: 100
-shoot: {
-  shots: 10
-  shotDelay: 4
-}
+reload: 12
 ammoTypes: {
   coal: {
+  type: BulletType
+  hitSize: 7
+  damage: 14
+  speed: 3.35
+  lifetime: 18
+  pierce: true
+  pierceCap: 3
+  pierceDamageFactor: 0.25
+  collidesAir: false
+
+  status: burning
+  statusDuration: 120
+
+  
+  
   }
   spore: {
   }
