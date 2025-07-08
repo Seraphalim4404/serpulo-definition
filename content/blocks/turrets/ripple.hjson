@@ -80,18 +80,18 @@ ammoTypes: {
     lifetime: 80
     collidesTiles: false
 
-    fragLifeMin: 0.8
+    fragLifeMin: 0.5
     fragLifeMax: 1
-    fragBullets: 5
+    fragBullets: 4
     fragBullet: {
       type: ArtilleryBulletType
       height: 8
       width: 8
       hitSize: 6
-      splashDamage: 28
+      splashDamage: 30
       splashDamageRadius: 28
-      speed: 0.75
-      lifetime: 90
+      speed: 0.5
+      lifetime: 60
 
       frontColor: fffac6
       backColor: d8d97f
