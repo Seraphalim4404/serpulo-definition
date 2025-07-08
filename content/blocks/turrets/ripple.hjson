@@ -90,7 +90,7 @@ ammoTypes: {
       hitSize: 6
       splashDamage: 28
       splashDamageRadius: 28
-      speed: 1.5
+      speed: 0.75
       lifetime: 90
 
       frontColor: fffac6
