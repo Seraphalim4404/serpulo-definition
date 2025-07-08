@@ -5,11 +5,12 @@ ammoTypes: {
     width: 11
     hitSize: 20
     splashDamage: 35
-    splashDamageRadius: 30
+    splashDamageRadius: 28
     knockback: 0.8
     speed: 3
     lifetime: 80
     collidesTiles: false
+    ammoMultiplier: 3
 
     frontColor: 7d89d8
     backColor: dae1ee
@@ -23,11 +24,12 @@ ammoTypes: {
     width: 11
     hitSize: 20
     splashDamage: 32
-    splashDamageRadius: 27
+    splashDamageRadius: 25
     knockback: 0.8
     speed: 3
     lifetime: 80
     collidesTiles: false
+    ammoMultiplier: 3
 
     reloadMultiplier: 1.2
     
@@ -81,7 +83,7 @@ ammoTypes: {
     speed: 2
     lifetime: 80
     collidesTiles: false
-    ammoMultiplier: 2
+    ammoMultiplier: 3
 
     status: blasted
     statusDuration: 720
@@ -105,6 +107,7 @@ ammoTypes: {
     speed: 3.4
     lifetime: 80
     collidesTiles: false
+    ammoMultiplier: 1
 
     fragLifeMin: 0.5
     fragLifeMax: 1
@@ -142,6 +145,7 @@ ammoTypes: {
     lifetime: 260
     collidesTiles: false
     rangeChange: 72
+    ammoMultiplier: 1
 
     reloadMultiplier: 0.75
 
