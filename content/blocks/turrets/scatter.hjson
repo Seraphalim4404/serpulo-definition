@@ -5,6 +5,7 @@ shoot: {
     type: ShootAlternate
     barrels: 3
     spread: 0
+    }
     dest: [
       {
         type: ShootBarrel
@@ -29,4 +30,3 @@ shoot: {
       }
     ]
   }
-}
