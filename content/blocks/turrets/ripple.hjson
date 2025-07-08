@@ -38,9 +38,8 @@ ammoTypes: {
 
     reloadMultiplier: 0.75
 
-    hitSound: spark
-    hitSoundPitch: 0.5
-    hitSoundVolume: 3
+    hitSound: bigShot
+    hitSoundPitch: 0.7
 
     fragBullets: 1
     fragBullet: {
@@ -48,8 +47,8 @@ ammoTypes: {
       height: 16
       width: 16
       hitSize: 10
-      damage: 50
-      splashDamage: 200
+      damage: 25
+      splashDamage: 160
       splashDamageRadius: 38
       speed: 0
       lifetime: 2400
@@ -79,9 +78,9 @@ ammoTypes: {
     trailEffect: disperseTrail
     color: ddae82
     trailRotation: true
-    trailChance: 0.24
+    trailChance: 0.15
 
-    hitFfect: blastExplosion
+    hitEffect: blastExplosion
     despawnEfect: hitBulletColor
   }
 }
