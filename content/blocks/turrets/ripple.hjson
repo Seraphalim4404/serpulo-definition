@@ -177,7 +177,7 @@ ammoTypes: {
       sprite: "mine-bullet"
 
       hitFfect: blastExplosion
-      despawnEfect: none
+      despawnEfect: blastExplosion
 
       hitSound: explosion
     }
