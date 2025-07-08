@@ -2,5 +2,5 @@ maxAmmo: 3
 reload: 90
 shoot: {
   shots: 10
-  reload: 3
+  shotDelay: 3
 }
