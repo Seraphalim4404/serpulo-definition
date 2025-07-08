@@ -1,29 +1,29 @@
-reload: 30
+reload: 60
 shoot: {
-  type: shootMulti
+  type: ShootMulti
   source: {
-    type: shootAlternate
+    type: shootBarrel
     barrels: 3
     spread: 0
     shots: 3
     shotDelay: 15
     dest: [
       {
-        type: shootBarrel
+        type: ShootBarrel
         shots: 2
         barrels: [
         0, 0, 0
         ]
       }
       {
-       type: shootBarrel
+       type: ShootBarrel
         shots: 2
         barrels: [
         0, 0, 0
         ]
       }
       {
-        type: shootBarrel
+        type: ShootBarrel
         shots: 2
         barrels: [
         0, 0, 0
