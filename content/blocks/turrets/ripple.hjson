@@ -117,7 +117,7 @@ ammoTypes: {
       height: 8
       width: 8
       hitSize: 6
-      splashDamage: 13
+      splashDamage: 18
       splashDamageRadius: 27
       speed: 0.5
       lifetime: 45
