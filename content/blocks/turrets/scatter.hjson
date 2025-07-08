@@ -1,4 +1,9 @@
-reload: 10
+reload: 30
 shoot: {
-  shots: 1
+  type: shootAlternate
+  barrels: 3
+  spread: 0
+  shots: 6
+  shotDelay: 15
+  mirror: true
 }
