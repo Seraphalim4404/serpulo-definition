@@ -1,6 +1,9 @@
 maxAmmo: 3
-reload: 90
+reload: 100
 shoot: {
   shots: 10
-  shotDelay: 3
+  shotDelay: 4
 }
+ammoTypes: {
+  coal: {
+  }
