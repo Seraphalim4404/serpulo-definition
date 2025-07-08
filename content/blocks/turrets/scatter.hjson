@@ -5,5 +5,5 @@ shoot: {
   spread: 0
   shots: 6
   shotDelay: 15
-  mirror: true
+  mirror: false
 }
