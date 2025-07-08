@@ -142,9 +142,8 @@ ammoTypes: {
     splashDamageRadius: 42
     knockback: 0.8
     speed: 1.75
-    lifetime: 260
+    lifetime: 200
     collidesTiles: false
-    rangeChange: 72
     ammoMultiplier: 1
 
     reloadMultiplier: 0.75
