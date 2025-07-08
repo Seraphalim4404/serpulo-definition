@@ -15,7 +15,7 @@ ammoTypes: {
     damage: 9
     speed: 3
     lifetime: 60
-    ammoMultiplier: 1
+    ammoMultiplier: 2
     
     frontColor: eac1a8
     backColor:  d39169
@@ -28,7 +28,7 @@ ammoTypes: {
     damage: 17
     speed: 3.5
     lifetime: 60
-    ammoMultiplier: 2
+    ammoMultiplier: 1
     
     rangeChange: 16
     
