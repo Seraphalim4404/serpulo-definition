@@ -38,6 +38,10 @@ ammoTypes: {
 
     reloadMultiplier: 0.75
 
+    hitSound: spark
+    hitSoundPitch: 0.5
+    hitSoundVolume: 3
+
     fragBullets: 1
     fragBullet: {
       type: BasicBulletType
@@ -65,6 +69,8 @@ ammoTypes: {
 
       hitFfect: blastExplosion
       despawnEfect: none
+
+      hitSound: explosion
     }
     frontColor: edc39c
     backColor: ddae82
