@@ -162,7 +162,7 @@ ammoTypes: {
       splashDamage: 160
       splashDamageRadius: 38
       speed: 0
-      lifetime: 2400
+      lifetime: 1800
 
       shrinkY: 0
 
