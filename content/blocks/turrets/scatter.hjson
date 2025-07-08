@@ -2,7 +2,7 @@ reload: 60
 shoot: {
   type: ShootMulti
   source: {
-    type: shootBarrel
+    type: ShootAlternate
     barrels: 3
     spread: 0
     shots: 3
