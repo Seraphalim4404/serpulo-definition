@@ -7,3 +7,10 @@ shoot: {
 ammoTypes: {
   coal: {
   }
+  spore: {
+  }
+  pyratite: {
+  }
+  blast-compound: {
+  }
+}
