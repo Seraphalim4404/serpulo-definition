@@ -12,11 +12,17 @@ ammoTypes: {
     collidesTiles: false
 
     frontColor: 7d89d8
-    backColor: e9665b
-    hitColor: e9665b
-    trailColor: e9665b
+    backColor: dae1ee
+    hitColor: dae1ee
 
     despawnEfect: hitBulletColor
+  }
+  silicon: {
+    type: ArtilleryBulletType
+    height: 11
+    width: 11
+    hitSize: 
+  }
   blast-compound: {
     type: ArtilleryBulletType
     height: 14
@@ -40,6 +46,9 @@ ammoTypes: {
 
     hitFfect: blastExplosion
     despawnEfect: hitBulletColor
+  }
+  plastanium: {
+    type: ArtilleryBulletType
   }
   phase-fabric: {
     type: ArtilleryBulletType
