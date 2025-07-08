@@ -12,11 +12,15 @@ ammoTypes: {
   pierceDamageFactor: 0.25
   collidesAir: false
 
+  keepVelocity: false
+  hittable: false
+  
   status: burning
   statusDuration: 120
 
-  
-  
+  hitEffect: hitFlameSmall
+  shootEffect: shootFlameSmall
+  despawnEffect: none
   }
   spore: {
   }
