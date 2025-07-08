@@ -1,4 +1,4 @@
-reload: 10
+reload: 7.5
 shoot: {
   shots: 1
 }
