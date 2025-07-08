@@ -38,7 +38,7 @@ ammoTypes: {
 
     reloadMultiplier: 0.75
 
-    hitSound: bigShot
+    hitSound: bigshot
     hitSoundPitch: 0.7
 
     fragBullets: 1
