@@ -1,0 +1,7 @@
+reload: 24
+shoot: {
+  shots: 4
+  shotDelay: 2
+  firstShotDelay: 45
+}
+trackingRange: 240
