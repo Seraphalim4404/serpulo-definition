@@ -4,5 +4,3 @@ shoot: {
   shotDelay: 2
 }
 trackingRange: 240
-warmupMaintainTime: 60
-shootWarmupSpeed: 0.04
