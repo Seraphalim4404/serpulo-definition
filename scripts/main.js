@@ -1,1 +1,1 @@
-Blocks.scatter.ammoTypes.get(Items.lead).splashDamage = 12 * 0.5;
+Blocks.scatter.ammoTypes.new(Items.thorium).splashDamage = 12 * 3.5;
