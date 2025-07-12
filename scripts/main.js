@@ -1,1 +1,1 @@
-Blocks.scatter.ammoTypes.new(Items.thorium).splashDamage = 12 * 3.5;
+Blocks.ripple.ammoTypes.get(Items.phaseFabric).splashDamage = 12 * 3.5;
