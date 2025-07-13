@@ -1,6 +1,6 @@
 health: 15000
-speed: 0.22
-rotateSpeed: 1.4
+speed: 0.25
+rotateSpeed: 1.5
 range: 460
 weapons: [
   {
@@ -28,12 +28,12 @@ weapons: [
     }
     bullet: {
       type: ContinuousLaserBulletType
-      length: 460
+      length: 388
       width: 9
       damage: 68.75
 
       lifetime: 300
-      fadeTime: 120
+      fadeTime: 50
 
       lightningSpacing: 35
       lightningLength: 5
@@ -52,6 +52,8 @@ weapons: [
       sideLength: 0
       sideWidth: 0
       colors: [98ffa9, 98ffa9, ffffff]
+      
+      despawnEffect: circleColorSpark
     }
   }
 ]
