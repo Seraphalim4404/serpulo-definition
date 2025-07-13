@@ -16,12 +16,12 @@ weapons: [
     cooldownTime: 720
 
     shootStatus: unmoving
-    shootStatusDuration: 160
+    shootStatusDuration: 260
 
     shootSound: laserblast
     chargeSound: lasercharge
-    soundPitchMin: 0.6
-    soundPitchMax: 0.6
+    soundPitchMin: 0.45
+    soundPitchMax: 0.45
    
 
     shoot: {
@@ -51,7 +51,11 @@ weapons: [
       sideAngle: 15
       sideLength: 0
       sideWidth: 0
-      color:[98ffa9, 98ffa9, ffffff]
+      color: [
+      98ffa9
+      98ffa9
+      ffffff
+      ]
     }
   }
 ]
