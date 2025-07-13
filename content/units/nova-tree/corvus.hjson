@@ -10,30 +10,30 @@ weapons: [
     top: false
     mirror: false
     shake: 14
-    reload: 650
+    reload: 580
     recoil: 130
 
-    cooldownTime: 650
+    cooldownTime: 580
 
     shootStatus: slow
     shootStatusDuration: 540
 
     shootSound: beam
     chargeSound: lasercharge
-    chargeSoundPitchMin: 0.47
-    chargeSoundPitchMax: 0.47
-   
-
+    
+    continuous: true
+    
     shoot: {
-      firstShotDelay: 240
+      firstShotDelay: 120
     }
     bullet: {
       type: ContinuousLaserBulletType
-      length: 596
-      width: 12
+      length: 460
+      width: 9
       damage: 68.75
 
       lifetime: 300
+      fadeTime: 120
 
       lightningSpacing: 35
       lightningLength: 5
