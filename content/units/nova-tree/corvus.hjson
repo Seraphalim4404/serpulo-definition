@@ -26,7 +26,7 @@ weapons: [
     shootEffect: greenLaserCharge
     
     shoot: {
-      firstShotDelay: 120
+      firstShotDelay: 105
     }
     bullet: {
       type: ContinuousLaserBulletType
