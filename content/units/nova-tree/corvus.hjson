@@ -10,18 +10,18 @@ weapons: [
     top: false
     mirror: false
     shake: 14
-    reload: 720
-    recoil: 50
+    reload: 650
+    recoil: 130
 
-    cooldownTime: 720
+    cooldownTime: 650
 
     shootStatus: unmoving
     shootStatusDuration: 260
 
     shootSound: laserblast
     chargeSound: lasercharge
-    soundPitchMin: 0.45
-    soundPitchMax: 0.45
+    soundPitchMin: 0.5
+    soundPitchMax: 0.5
    
 
     shoot: {
