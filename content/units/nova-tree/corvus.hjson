@@ -51,10 +51,10 @@ weapons: [
       sideAngle: 15
       sideLength: 0
       sideWidth: 0
-      color: [
-      98ffa9
-      98ffa9
-      ffffff
+      colors: [
+        98ffa9
+        98ffa9
+        ffffff
       ]
     }
   }
