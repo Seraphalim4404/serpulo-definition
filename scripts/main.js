@@ -1,1 +1,1 @@
-Blocks.ripple.ammoTypes.get(Items.phaseFabric).splashDamage = 12 * 3.5;
+Blocks.ripple.ammoTypes.new(Items.phaseFabric).splashDamage = 12 * 3.5;
