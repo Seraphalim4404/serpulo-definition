@@ -1,1 +1,47 @@
+health: 16000
+speed: 0.12
+rotateSpeed: 1.2
+range: 460
+weapons: [
+  {
+    x: 0
+    y: 0
+    shootY: 5
+    top: false
+    mirror: false
+    shake: 14
+    reload: 720
+    recoil: 20
 
+    cooldownTime: 720
+
+    shootStatus: unmoving
+    shootStatusDuration: 160
+
+    bullet: {
+      type: LaserBulletType
+      length: 596
+      width: 75
+      damage: 1320
+
+      lifetime: 105
+
+      lightningSpacing: 35
+      lightningLength: 5
+      lightningDelay: 1.1
+      lightningLengthRand: 64
+      lightningDamage: 70
+      lightningAngleRand: 40
+      largeHit: true
+      lightColor: 98ffa9
+      lightningColor: 98ffa9
+
+      healPercent: 25
+      collidesTeam: true
+
+      sideAngle: 15
+      sideLength: 0
+      sideWidth: 0
+    }
+  }
+]
