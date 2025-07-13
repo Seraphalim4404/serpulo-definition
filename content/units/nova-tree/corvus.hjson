@@ -52,9 +52,9 @@ weapons: [
       sideLength: 0
       sideWidth: 0
       colors: [
-        98ffa9
-        98ffa9
-        ffffff
+        #98ffa9
+        #98ffa9
+        #ffffff
       ]
     }
   }
