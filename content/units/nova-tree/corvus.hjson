@@ -20,8 +20,8 @@ weapons: [
 
     shootSound: laserblast
     chargeSound: lasercharge
-    soundPitchMin: 0.5
-    soundPitchMax: 0.5
+    soundPitchMin: 0.47
+    soundPitchMax: 0.47
    
 
     shoot: {
