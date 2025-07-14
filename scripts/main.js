@@ -1,5 +1,5 @@
 Blocks.scatter.ammoTypes.get(Items.lead).splashDamage = 10 * 1.6;
-Blocks.scatter.ammoTypes {
+Blocks.scatter.ammoTypes = {
     Items.blastCompound new FlakBulletType(5f; 3){
         
     lifetime = 60f;
