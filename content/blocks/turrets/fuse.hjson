@@ -1,6 +1,6 @@
 ammoTypes: {
   phase-fabric: {
-    type: SharpnelBulletType
+    type: ShrapnelBulletType
     length: 280
     width:  16
     damage: 140
