@@ -36,11 +36,7 @@ ammoTypes: {
     reloadMultiplier: 0.8
     ammoMultiplier: 1
 
-    shoot: {
-     type: shootSpread
-     shots: 3
-     spread: 7.5
-    }
+    shootSpread: 7.5
 
     toColor: eeab89
     shootEffect: none
