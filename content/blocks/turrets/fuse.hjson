@@ -45,6 +45,5 @@ ammoTypes: {
     toColor: eeab89
     shootEffect: none
     smokeEffect: none
-    }
   }
 }
