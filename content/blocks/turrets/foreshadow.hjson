@@ -8,11 +8,12 @@ ammoTypes: {
     hitShake: 4
     pointEffectSpace: 20
     maxDamageFraction: 0.4
-    pierceDamageFactor: 0.2
+    pierceDamageFactor: 1
+    pierceArmor: true
+
+    buildingDamageMultiplier: 0.4
       
-    buildingDamageMultiplier: 0.2
-      
-    reloadMultiplier: 1.35
+    reloadMultiplier: 1.5
     ammoMultiplier: 1
       
     shootEffect: instShoot
