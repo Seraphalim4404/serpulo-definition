@@ -4,7 +4,7 @@ ammoTypes: {
     type: RailBulletType
     reflectable: true
     length: 500
-    damage: 550
+    damage: 3000
     hitShake: 4
     pointEffectSpace: 20
     maxDamageFraction: 0.4
@@ -13,7 +13,7 @@ ammoTypes: {
 
     buildingDamageMultiplier: 0.4
       
-    reloadMultiplier: 1.5
+    reloadMultiplier: 0.2
     ammoMultiplier: 1
       
     shootEffect: instShoot
