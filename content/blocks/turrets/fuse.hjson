@@ -1,7 +1,7 @@
 shoot: {
   type: shootSpread
   shots: 3
-  spread: 7.5
+  spread: 20
 }
 ammoTypes: {
   titanium: {
@@ -14,6 +14,7 @@ ammoTypes: {
     reloadMultiplier: 1.3
   }
   thorium: {
+    type: ShrapnelBulletType
     length: 100
     width: 17
     damage: 105
@@ -29,19 +30,26 @@ ammoTypes: {
     length: 180
     width:  16
     damage: 140
+    inaccuracy: 7.5
 
     rangeChange: 160
 
     reloadMultiplier: 0.8
     ammoMultiplier: 1
 
+    shoot: {
+     type: shootSpread
+     shots: 3
+     spread: 7.5
+    }
+
     toColor: eeab89
     shootEffect: {
-      type: lightningShoot
+      type: thoriumShoot
       shootColor: ddae82
     }
     smokeEffect: {
-      type: lightningShoot
+      type: thoriumShoot
       shootColor: ddae82
     }
   }
