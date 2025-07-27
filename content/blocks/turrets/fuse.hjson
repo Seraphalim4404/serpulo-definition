@@ -20,9 +20,9 @@ ammoTypes: {
 
     ammoMultiplier: 4
 
-    toColor:
-    shootEffect:
-    smokeEffect: 
+    toColor: f9a3c7
+    shootEffect: thoriumShoot
+    smokeEffect: thoriumShoot
   }
   phase-fabric: {
     type: ShrapnelBulletType
@@ -36,7 +36,13 @@ ammoTypes: {
     ammoMultiplier: 1
 
     toColor: eeab89
-    shootEffect: ddae82
-    smokeEffect: ddae82
+    shootEffect: {
+      type: lightningShoot
+      shootColor: ddae82
+    }
+    smokeEffect: {
+      type: lightningShoot
+      shootColor: ddae82
+    }
   }
 }
