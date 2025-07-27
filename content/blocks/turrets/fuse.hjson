@@ -30,7 +30,6 @@ ammoTypes: {
     length: 180
     width:  16
     damage: 140
-    inaccuracy: 7.5
 
     rangeChange: 160
 
