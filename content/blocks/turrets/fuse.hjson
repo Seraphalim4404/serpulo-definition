@@ -1,3 +1,8 @@
+shoot: {
+  type: shootSpread
+  shots: 3
+  spread: 7.5
+}
 ammoTypes: {
   phase-fabric: {
     type: ShrapnelBulletType
@@ -9,5 +14,7 @@ ammoTypes: {
 
     reloadMultiplier: 0.8
     ammoMultiplier: 1
+
+    toColor: 
   }
 }
