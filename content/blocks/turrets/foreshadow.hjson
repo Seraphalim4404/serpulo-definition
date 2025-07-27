@@ -8,7 +8,7 @@ ammoTypes: {
     hitShake: 4
     pointEffectSpace: 20
     maxDamageFraction: 0.4
-    pierceDamageFactor: 1
+    pierceDamageFactor: 0.2
       
     buildingDamageMultiplier: 0.2
       
@@ -26,11 +26,11 @@ ammoTypes: {
     type: RailBulletType
     reflectable: true
     length: 500
-    damage: 650
+    damage: 1350
     hitShake: 4
     pointEffectSpace: 20
     maxDamageFraction: 0.6
-    pierceDamageFactor: 1
+    pierceDamageFactor: 0.5
       
     buildingDamageMultiplier: 0.2
       
