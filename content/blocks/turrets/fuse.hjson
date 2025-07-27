@@ -43,13 +43,8 @@ ammoTypes: {
     }
 
     toColor: eeab89
-    shootEffect: {
-      type: thoriumShoot
-      shootColor: ddae82
-    }
-    smokeEffect: {
-      type: thoriumShoot
-      shootColor: ddae82
+    shootEffect: none
+    smokeEffect: none
     }
   }
 }
