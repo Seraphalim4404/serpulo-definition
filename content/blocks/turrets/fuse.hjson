@@ -1,0 +1,13 @@
+ammoTypes: {
+  phase-fabric: {
+    type: SharpnelBulletType
+    length: 280
+    width:  16
+    damage: 140
+
+    rangeChange: 244
+
+    reloadMultiplier: 0.8
+    ammoMultiplier: 1
+  }
+}
