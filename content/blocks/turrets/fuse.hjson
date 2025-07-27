@@ -15,6 +15,6 @@ ammoTypes: {
     reloadMultiplier: 0.8
     ammoMultiplier: 1
 
-    toColor: 
+    toColor: eeab89
   }
 }
