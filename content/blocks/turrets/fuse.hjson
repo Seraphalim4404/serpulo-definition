@@ -27,16 +27,16 @@ ammoTypes: {
   }
   phase-fabric: {
     type: ShrapnelBulletType
-    length: 180
+    length: 150
     width:  16
     damage: 140
 
-    rangeChange: 160
+    rangeChange: 132
 
     reloadMultiplier: 0.8
     ammoMultiplier: 1
 
-    shootSpread: 7.5
+    spread: 7.5
 
     toColor: eeab89
     shootEffect: none
