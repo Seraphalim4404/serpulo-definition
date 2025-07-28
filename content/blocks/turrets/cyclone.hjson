@@ -8,10 +8,10 @@ ammoTypes: {
     lifetime: 90
     speed: 0.3
     pierce: true
-    pierceBuildings: true
+    pierceBuilding: true
 
-   
-    drag: -0.075
+    rangeChange: 64
+    drag: -0.08
 
     ammoMultiplier: 1
     
