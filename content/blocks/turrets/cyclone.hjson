@@ -6,11 +6,11 @@ ammoTypes: {
     hitSize: 14
     damage: 28
     lifetime: 180
-    speed: 3
+    speed: 0.3
     pierce: true
     pierceBuildings: true
 
-    drag: -0.07
+    drag: -0.09
 
     ammoMultiplier: 1
     
