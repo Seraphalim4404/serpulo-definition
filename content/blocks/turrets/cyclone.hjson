@@ -5,19 +5,20 @@ ammoTypes: {
     width: 3
     hitSize: 14
     damage: 28
-    lifetime: 180
+    lifetime: 90
     speed: 0.3
     pierce: true
     pierceBuildings: true
 
-    drag: -0.09
+   
+    drag: -0.075
 
     ammoMultiplier: 1
     
     reloadMultiplier: 0.75
     buildingDamageMultiplier: 0.45
 
-    shrinkY: 0.08
+    shrinkY: 0.1
 
     despawnEffect: none
     
