@@ -5,9 +5,9 @@ ammoTypes: {
     width: 3
     hitSize: 14
     damage: 28
-    lifetime: 30
+    lifetime: 65
     speed: 2
-    inaccuracy: -9.5
+    inaccuracy: -8.5
     pierce: true
     pierceBuilding: true
 
