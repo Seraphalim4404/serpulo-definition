@@ -11,8 +11,8 @@ ammoTypes: {
     pierce: true
     pierceBuilding: true
 
-    rangeChange: 108
-    drag: -0.06
+    rangeChange: 104
+    drag: -0.0525
 
     ammoMultiplier: 1
     
