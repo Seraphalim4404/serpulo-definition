@@ -5,14 +5,14 @@ ammoTypes: {
     width: 3
     hitSize: 14
     damage: 28
-    lifetime: 60
+    lifetime: 45
     speed: 2
     inaccuracy: -8.5
     pierce: true
     pierceBuilding: true
 
-    rangeChange: 64
-    drag: -0.045
+    rangeChange: 108
+    drag: -0.06
 
     ammoMultiplier: 1
     
