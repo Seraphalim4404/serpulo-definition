@@ -1,6 +1,7 @@
+range: 272
 shootType: {
   type: ContinuousLaserBulletType
-  length: 260
+  length: 288
   damage: 55.5
   timescaleDamage: true
   
