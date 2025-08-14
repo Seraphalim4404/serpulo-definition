@@ -6,7 +6,7 @@ shootType: {
   timescaleDamage: true
   
   status: melting
-  statusDuratuon: 780
+  statusDuration: 780
 
   incendChance: 0.4
   incendSpread: 5
