@@ -1,0 +1,19 @@
+range: 262
+shootType: {
+  type: ContinuousLaserBulletType
+  length: 276
+  damage: 55.5
+  timescaleDamage: true
+  
+  status: melting
+  statusDuratuon: 780
+
+  incendChance: 0.4
+  incendSpread: 5
+  incendAmount: 1
+
+  ammoMultiplier: 1
+
+  hitEffect: hitMeltdown
+  hitColor: ffb98b
+}
