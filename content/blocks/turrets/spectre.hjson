@@ -40,13 +40,14 @@ ammoTypes: {
     ammoMultiplier: 3
     
     reloadMultiplier: 2
+    rangeChange: 40
 
     homingPower: 0.068
     homingRange: 136
 
     trailColor: 999ba0
     trailLength: 12
-    trailWidth: 4
+    trailWidth: 3.75
 
     frontColor: 707594
     backColor: 999ba0
