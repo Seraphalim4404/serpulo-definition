@@ -1,3 +1,4 @@
+trackingRange: 312
 reload: 5.25
 shoot: {
   type: shootAlternate
@@ -6,10 +7,10 @@ shoot: {
 }
 
 hasLiquids: true
-consumes: {
-  coolant: {
-    amount: 0.33333333333
-  }
+coolant: {
+  type: ConsumeCoolant
+  allowLiquid: true
+  amount: 0.33333333333
 }
 coolantMultiplier: 1.5
 
