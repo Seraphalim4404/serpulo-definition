@@ -1,4 +1,3 @@
-type: ItemTurret
 trackingRange: 312
 reload: 5.25
 shoot: {
@@ -11,6 +10,8 @@ coolant: {
   type: ConsumeCoolant
   allowLiquid: true
   amount: 0.33333333333
+  optional: true
+  booster: true
 }
 coolantMultiplier: 1.5
 
