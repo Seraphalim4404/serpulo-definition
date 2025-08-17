@@ -29,6 +29,26 @@ ammoTypes: {
     hitEffect: hitBulletColor
     despawnEffect: hitBulletColor
   }
+    silicon: {
+    type: BasicBulletType
+    height: 21
+    width: 15
+    hitSize: 4.8
+    damage: 20
+    speed: 7.5
+    lifetime: 65
+    ammoMultiplier: 3
+    
+    reloadMultiplier: 2
+
+    frontColor: 7d89d8
+    backColor: dae1ee
+    hitColor: dae1ee
+    trailColor: dae1ee
+
+    hitEffect: hitBulletColor
+    despawnEffect: hitBulletColor
+  }
   thorium: {
     type: BasicBulletType
     height: 23
@@ -118,3 +138,5 @@ ammoTypes: {
     despawnEffect: hitBulletColor
   }
 }
+
+consumeCoolant: 0.375
