@@ -7,11 +7,9 @@ shoot: {
 }
 
 coolantMultiplier: 1.5
-consumes: {
-  coolant: {
-    amount: 0.33333333333
-    allowLiquid: true
-  }
+coolant: {
+  amount: 0.33333333333
+  allowLiquid: true
 }
 
 maxAmmo: 40
