@@ -143,4 +143,6 @@ ammoTypes: {
   }
 }
 
-consumeCoolant: 0.375
+consumeCoolant: {
+  amount: 0.375
+}
