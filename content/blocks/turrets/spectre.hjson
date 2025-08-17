@@ -12,6 +12,7 @@ coolant: {
   amount: 0.33333333333
   optional: true
   booster: true
+  update: true
 }
 coolantMultiplier: 1.5
 
