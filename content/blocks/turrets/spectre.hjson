@@ -6,12 +6,10 @@ shoot: {
   spread: 8
 }
 
-consumes: {
-  coolant: {
-    type: ConsumeCoolant
-    allowLiquid: true
-    amount: 0.33333333333
-  }
+consumers: {
+  type: ConsumeCoolant
+  allowLiquid: true
+  amount: 0.33333333333
 }
 coolantMultiplier: 1.5
 
