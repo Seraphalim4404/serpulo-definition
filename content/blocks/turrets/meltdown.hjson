@@ -1,4 +1,0 @@
-coolant: {
-  type: ConsumeCoolant
-  amount: 0.83333333333
-}
