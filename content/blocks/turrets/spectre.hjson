@@ -1,8 +1,8 @@
+reload: 3.5
 shoot: {
   type: shootAlternate
   barrels: 2
   spread: 8
-  reload: 3.5
 }
 maxAmmo: 40
 ammoTypes: {
