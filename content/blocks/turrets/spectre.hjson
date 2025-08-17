@@ -8,8 +8,10 @@ shoot: {
 
 coolantMultiplier: 1.5
 coolant: {
+  type: ConsumeCoolant
   amount: 0.33333333333
   allowLiquid: true
+  optional: true
 }
 
 maxAmmo: 40
@@ -86,17 +88,22 @@ ammoTypes: {
     height: 21
     width: 16
     hitSize: 5
+    damage: 70
     speed: 7
 
+    pierce: true
+    pierceCap: 3
+    pierceDamageFactor: 0.35
     makeFire: true
-    splashDamage: 105
+
+    splashDamage: 40
     splashDamageRadius: 28
 
     frontColor: f8ad42
     backColor: f68021
 
     hitEffect: fireHit
-    despawnEffect: shockwave
+    despawnEffect: bigShockwave
   }
   phase-fabric: {
     type: BasicBulletType
