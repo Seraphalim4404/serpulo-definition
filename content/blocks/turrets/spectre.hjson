@@ -5,6 +5,7 @@ shoot: {
   spread: 8
 }
 
+hasLiquids: true
 consumes: {
   coolant: {
     amount: 0.33333333333
