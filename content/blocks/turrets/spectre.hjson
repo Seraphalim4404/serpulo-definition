@@ -41,13 +41,16 @@ ammoTypes: {
     
     reloadMultiplier: 2
 
-    frontColor: 7d89d8
-    backColor: dae1ee
-    hitColor: dae1ee
-    trailColor: dae1ee
+    homingPower: 0.068
+    homingRange: 136
 
-    hitEffect: hitBulletColor
-    despawnEffect: hitBulletColor
+    trailColor: 999ba0
+    trailLength: 12
+    trailWidth: 4
+
+    frontColor: 707594
+    backColor: 999ba0
+    hitColor: 999ba0
   }
   thorium: {
     type: BasicBulletType
