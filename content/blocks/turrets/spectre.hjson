@@ -6,20 +6,9 @@ shoot: {
 }
 
 consumes: {
-  liquids: [
-    {
-    liquid: water,
-    amount: 0.33333333333,
-    booster: true,
-    optional: true,
-    }
-    {
-    liquid: cryofluid,
-    amount: 0.33333333333,
-    booster: true,
-    optional: true,
-    }
-  ]
+  coolant: {
+    amount: 0.33333333333
+  }
 }
 coolantMultiplier: 1.5
 
