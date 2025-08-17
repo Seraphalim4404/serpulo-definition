@@ -8,8 +8,10 @@ shoot: {
 consumes: {
   coolant: {
     type: ConsumeCoolant
+    allowLiquid: true
     optional: true
     amount: 0.33333333333
+    update: true
   }
 }
 coolantMultiplier: 1.5
