@@ -93,18 +93,16 @@ ammoTypes: {
     hitSize: 5
     damage: 70
     speed: 7
-    pierce: true
-    pierceBuilding: true
-    pierceCap: 2
 
     makeFire: true
-    splashDamage: 20
-    splashDamageRadius: 25
+    splashDamage: 105
+    splashDamageRadius: 28
 
     frontColor: f8ad42
     backColor: f68021
 
     hitEffect: fireHit
+    despawnEffect: shockwave
   }
   phase-fabric: {
     type: BasicBulletType
