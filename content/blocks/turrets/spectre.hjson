@@ -7,7 +7,7 @@ shoot: {
 
 consumes: {
   coolant: {
-    type: consumeCoolant
+    type: ConsumeCoolant
     optional: true
     amount: 0.33333333333
   }
