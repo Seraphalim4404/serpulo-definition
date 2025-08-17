@@ -40,8 +40,8 @@ ammoTypes: {
     ammoMultiplier: 4
 
     pierce: true
-    pierceCap: 2
-    pierceDamageFactor: 0.8
+    pierceCap: 3
+    pierceDamageFactor: 0.2
 
     frontColor: f595be
     backColor: ffffff
