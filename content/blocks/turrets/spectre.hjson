@@ -145,7 +145,6 @@ ammoTypes: {
 
 coolantMultiplier: 1.5
 coolant: {
-    type: ConsumeCoolant
-    amount: 0.33333333333
-  }
+  type: ConsumeCoolant
+  amount: 0.33333333333
 }
