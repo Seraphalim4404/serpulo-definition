@@ -1,3 +1,4 @@
+type: ItemTurret
 trackingRange: 312
 reload: 5.25
 shoot: {
@@ -6,16 +7,7 @@ shoot: {
   spread: 8
 }
 
-coolantMultiplier: 1.5
-coolant: {
-  type: ConsumeCoolant
-  amount: 0.33333333333
-  allowLiquid: true
-  optional: true
-}
-
 maxAmmo: 40
-
 ammoTypes: {
   graphite: {
     type: BasicBulletType
