@@ -143,9 +143,9 @@ ammoTypes: {
   }
 }
 
+coolantMultiplier: 0.5
 coolant: {
   type: ConsumeCoolant
-  allowGas: true
   allowLiquid: true
   amount: 0.33333333333
 }
