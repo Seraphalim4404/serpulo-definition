@@ -9,7 +9,7 @@ shoot: {
 coolant: {
   type: ConsumeCoolant
   allowLiquid: true
-  amount: 0.33333333333
+  amount: 0.375
 }
 
 maxAmmo: 40
