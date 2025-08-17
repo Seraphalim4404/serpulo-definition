@@ -28,7 +28,7 @@ ammoTypes: {
     knockback: 0.4
     ammoMultiplier: 2
     
-    reloadMultiplier: 1.35
+    reloadMultiplier: 1.15
     pierce: true
     pierceCap: 2
     pierceDamageFactor: 0.8
@@ -51,7 +51,7 @@ ammoTypes: {
     lifetime: 65
     ammoMultiplier: 3
     
-    reloadMultiplier: 1.5
+    reloadMultiplier: 1.25
     rangeChange: 40
 
     homingPower: 0.068
