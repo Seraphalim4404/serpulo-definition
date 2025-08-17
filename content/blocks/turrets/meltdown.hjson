@@ -1,3 +1,6 @@
-consumeCoolant: {
+coolant: {
+  type: consumeCoolant
+  allowGas: true
+  allowLiquid: true
   amount: 0.83333333333
 }
