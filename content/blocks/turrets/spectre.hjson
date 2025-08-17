@@ -8,10 +8,11 @@ shoot: {
 
 coolantMultiplier: 1.5
 coolant: {
-  type: ConsumeCoolant
-  amount: 0.3333333333
-  optional: true
-  booster: true
+  ConsumeCoolant: {
+    amount: 0.3333333333
+    optional: true
+    booster: true
+  }
 }
 
 maxAmmo: 40
