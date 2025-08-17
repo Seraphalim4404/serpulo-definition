@@ -4,7 +4,18 @@ shoot: {
   barrels: 2
   spread: 8
 }
+
+consumes: {
+  coolant: {
+    type: ConsumeCoolant
+    allowLiquid: true
+    amount: 0.83333333333
+  }
+}
+coolantMultiplier: 1.5
+
 maxAmmo: 40
+
 ammoTypes: {
   graphite: {
     type: BasicBulletType
@@ -141,10 +152,4 @@ ammoTypes: {
     hitEffect: hitBulletColor
     despawnEffect: hitBulletColor
   }
-}
-
-coolantMultiplier: 1.5
-coolant: {
-  type: ConsumeCoolant
-  amount: 0.33333333333
 }
