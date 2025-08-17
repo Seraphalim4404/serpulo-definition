@@ -143,6 +143,9 @@ ammoTypes: {
   }
 }
 
-consumeCoolant: {
-  amount: 0.375
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.33333333333
 }
