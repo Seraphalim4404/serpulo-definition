@@ -1,4 +1,4 @@
-reload: 3.5
+reload: 5.25
 shoot: {
   type: shootAlternate
   barrels: 2
