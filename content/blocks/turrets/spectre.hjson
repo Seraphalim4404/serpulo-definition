@@ -6,13 +6,10 @@ shoot: {
   spread: 8
 }
 
-coolantMultiplier: 1.5
 coolant: {
-  ConsumeCoolant: {
-    amount: 0.3333333333
-    optional: true
-    booster: true
-  }
+  type: ConsumeCoolant
+  allowLiquid: true
+  amount: 0.33333333333
 }
 
 maxAmmo: 40
