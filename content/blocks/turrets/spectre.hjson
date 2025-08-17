@@ -6,13 +6,20 @@ shoot: {
 }
 
 consumes: {
-  coolant: {
-    type: ConsumeCoolant
-    allowLiquid: true
-    optional: true
+  liquids: [
+    {
+    liquid: water
     amount: 0.33333333333
-    update: true
-  }
+    booster: true
+    optional: true
+    }
+    {
+    liquid: water
+    amount: 0.33333333333
+    booster: true
+    optional: true
+    }
+  ]
 }
 coolantMultiplier: 1.5
 
