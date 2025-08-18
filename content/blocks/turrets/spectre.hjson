@@ -88,6 +88,7 @@ ammoTypes: {
     pierceDamageFactor: 0.2
 
     fragBullets: 3
+    fragLifeMin: 0
     fragRandomSpread: 40
 
     fragBullet: {
