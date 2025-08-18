@@ -58,8 +58,8 @@ ammoTypes: {
     hitSize: 4.8
     damage: 20
     speed: 7.5
-    lifetime: 65
-    ammoMultiplier: 3
+    lifetime: 50
+    ammoMultiplier: 4
     
     reloadMultiplier: 1.2
     rangeChange: 40
@@ -68,8 +68,9 @@ ammoTypes: {
     homingRange: 136
 
     trailColor: 999ba0
-    trailLength: 12
+    trailLength: 7
     trailWidth: 3.75
+    trailChance: 0.44
 
     frontColor: 707594
     backColor: 999ba0
@@ -83,7 +84,7 @@ ammoTypes: {
     damage: 95
     speed: 8
     knockback: 1.2
-    ammoMultiplier: 4
+    ammoMultiplier: 3
 
     pierce: true
     pierceCap: 4
