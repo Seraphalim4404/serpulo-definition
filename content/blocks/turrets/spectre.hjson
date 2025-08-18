@@ -102,7 +102,7 @@ ammoTypes: {
       damage: 30
       speed: 8
       splashDamage: 16
-      splashDamageRadius: 15
+      splashDamageRadius: 16
 
       hitEffect: flakExplosion
 
