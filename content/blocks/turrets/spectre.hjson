@@ -30,7 +30,7 @@ ammoTypes: {
       type: BasicBulletType
       height: 7
       width: 7
-      lifetime: 40
+      lifetime: 25
       speed: 8
       splashDamage: 16
       splashDamageRadius: 13
@@ -94,7 +94,7 @@ ammoTypes: {
       type: BasicBulletType
       height: 7
       width: 7
-      lifetime: 40
+      lifetime: 25
       speed: 8
       splashDamage: 24
       splashDamageRadius: 15
