@@ -1,5 +1,5 @@
 trackingRange: 312
-reload: 5.25
+reload: 5.5
 shoot: {
   type: shootAlternate
   barrels: 2
