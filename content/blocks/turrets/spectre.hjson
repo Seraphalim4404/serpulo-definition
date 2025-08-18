@@ -23,6 +23,24 @@ ammoTypes: {
     pierceCap: 2
     pierceDamageFactor: 0.8
 
+    fragBullets: 2
+    fragRandomSpread: 30
+
+    fragBullet: {
+      type: BasicBulletType
+      height: 7
+      width: 7
+      lifetime: 40
+      speed: 8
+      splashDamage: 16
+      splashDamageRadius: 13
+
+      hitEffect: flakExplosion
+
+      frontColor: 7d89d8
+      backColor: dae1ee
+      hitColor: dae1ee
+    }
     frontColor: 7d89d8
     backColor: dae1ee
     hitColor: dae1ee
@@ -41,7 +59,7 @@ ammoTypes: {
     lifetime: 65
     ammoMultiplier: 3
     
-    reloadMultiplier: 1.25
+    reloadMultiplier: 1.2
     rangeChange: 40
 
     homingPower: 0.068
@@ -66,9 +84,27 @@ ammoTypes: {
     ammoMultiplier: 4
 
     pierce: true
-    pierceCap: 3
+    pierceCap: 4
     pierceDamageFactor: 0.2
 
+    fragBullets: 3
+    fragRandomSpread: 40
+
+    fragBullet: {
+      type: BasicBulletType
+      height: 7
+      width: 7
+      lifetime: 40
+      speed: 8
+      splashDamage: 24
+      splashDamageRadius: 15
+
+      hitEffect: flakExplosion
+
+      frontColor: f595be
+      backColor: ffffff
+      hitColor: ffffff
+    }
     frontColor: f595be
     backColor: ffffff
     hitColor: ffffff
@@ -81,7 +117,9 @@ ammoTypes: {
     hitSize: 5
     damage: 70
     speed: 7
+    ammoMultiplier: 1
 
+    reloadMultiplier: 0.9
     pierce: true
     pierceCap: 3
     pierceDamageFactor: 0.35
@@ -94,7 +132,6 @@ ammoTypes: {
     backColor: f68021
 
     hitEffect: fireHit
-    despawnEffect: bigShockwave
   }
   phase-fabric: {
     type: BasicBulletType
@@ -109,7 +146,7 @@ ammoTypes: {
     ammoMultiplier: 1
 
     buildingDamageMultiplier: 0.5
-    reloadMultiplier: 0.7
+    reloadMultiplier: 0.45
 
     fragRandomSpread: 0
     fragVelocityMin: 1
