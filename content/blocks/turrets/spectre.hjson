@@ -24,6 +24,7 @@ ammoTypes: {
     pierceDamageFactor: 0.8
 
     fragBullets: 2
+    fragLifeMin: 0.3
     fragRandomSpread: 30
 
     fragBullet: {
@@ -31,8 +32,9 @@ ammoTypes: {
       height: 7
       width: 7
       lifetime: 25
+      damage: 20
       speed: 8
-      splashDamage: 16
+      splashDamage: 10
       splashDamageRadius: 13
 
       hitEffect: flakExplosion
@@ -88,7 +90,7 @@ ammoTypes: {
     pierceDamageFactor: 0.2
 
     fragBullets: 3
-    fragLifeMin: 0
+    fragLifeMin: 0.25
     fragRandomSpread: 40
 
     fragBullet: {
@@ -96,8 +98,9 @@ ammoTypes: {
       height: 7
       width: 7
       lifetime: 25
+      damage: 30
       speed: 8
-      splashDamage: 24
+      splashDamage: 16
       splashDamageRadius: 15
 
       hitEffect: flakExplosion
