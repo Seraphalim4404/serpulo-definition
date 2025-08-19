@@ -13,6 +13,7 @@ ammoTypes: {
     height: 8
     width: 8
     lifetime: 75
+    damage: 10
     speed: 4
     homingPower: 0.07
     ammoMultiplier: 2
@@ -20,6 +21,8 @@ ammoTypes: {
     makeFire: true
     splashDamage: 140
     splashDamageRadius: 60
+
+    buildingDamageMultiplier: 0.1
 
     status: burning
     statusDuration: 1000
