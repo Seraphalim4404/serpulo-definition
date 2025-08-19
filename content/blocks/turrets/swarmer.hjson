@@ -1,3 +1,4 @@
+inaccuracy: 18
 range: 280
 ammoPerShot: 3
 reload: 120
@@ -10,22 +11,55 @@ shoot: {
 ammoTypes: {
   pyratite: {
     type: MissileBulletType
-    height: 8
-    width: 8
+    height: 12
+    width: 12
+    hitSize: 12
     lifetime: 75
     damage: 10
-    speed: 4
-    homingPower: 0.07
+    speed: 5
+    homingPower: 0.09
     ammoMultiplier: 2
 
     makeFire: true
     splashDamage: 140
-    splashDamageRadius: 48
+    splashDamageRadius: 40
 
     buildingDamageMultiplier: 0.1
 
     status: burning
-    statusDuration: 660
+    statusDuration: 780
+
+    frontColor: f8ad42
+    backColor: f68021
+    
+    hitEffect: blastExplosion
   }
+  blastCompound: {
+    type: MissileBulletType
+    height: 12
+    width: 12
+    hitSize: 12
+    lifetime: 85
+    damage: 25
+    speed: 4.25
+    homingPower: 0.08
+    ammoMultiplier: 2
+
+    splashDamage: 165
+    splashDamageRadius: 52
+
+    buildingDamageMultiplier: 0.1
+
+    status: blasted
+    statusDuration: 660
+
+    frontColor: f8ad42
+    backColor: f68021
+    trailColor:
+    
+    hitEffect: blastExplosion
+    despawnEffect: blastExplosion
+  }
+  surgeAlloy: {
 }
     
