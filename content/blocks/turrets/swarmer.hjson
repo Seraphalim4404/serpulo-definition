@@ -84,9 +84,9 @@ ammoTypes: {
     bulletInterval: 15
     intervalBullet: {
       type: BasicBulletType
-      height: 5
-      width: 5
-      hitSize: 5
+      height: 6
+      width: 6
+      hitSize: 6
       damage: 14
       lifetime: 15
       speed: 3
@@ -96,6 +96,10 @@ ammoTypes: {
       backColor: f3e979
       hitColor: f3e979
       trailColor: f3e979
+
+      trailLength: 4
+      trailWidth: 2.5
+      trailChance: 0.33
 
       hitEffect: none
       shootEffect: none
