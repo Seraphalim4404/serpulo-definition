@@ -34,7 +34,7 @@ ammoTypes: {
     
     hitEffect: blastExplosion
   }
-  blastCompound: {
+  blast-compound: {
     type: MissileBulletType
     height: 12
     width: 12
@@ -60,7 +60,7 @@ ammoTypes: {
     hitEffect: blastExplosion
     despawnEffect: blastExplosion
   }
-  surgeAlloy: {
+  surge-alloy: {
     type: MissileBulletType
     height: 12
     width: 12
@@ -81,7 +81,7 @@ ammoTypes: {
     buildingDamageMultiplier: 0.01
 
     intervalBullets: 1
-    bulletInterval: 10
+    bulletInterval: 15
     intervalBullet: {
       type: BasicBulletType
       height: 5
@@ -97,7 +97,7 @@ ammoTypes: {
       despawnEffect: none
 
       intervalBullets: 1
-      bulletInterval: 5
+      bulletInterval: 3
       intervalBullet: {
         type: LightningBulletType
         lightningLength: 6
