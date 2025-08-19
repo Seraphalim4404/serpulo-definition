@@ -1,7 +1,7 @@
 inaccuracy: 18
 range: 280
 ammoPerShot: 3
-reload: 120
+reload: 150
 shoot: {
   type: ShootAlternate
   barrels: 3
@@ -21,7 +21,7 @@ ammoTypes: {
     ammoMultiplier: 2
 
     makeFire: true
-    splashDamage: 140
+    splashDamage: 111
     splashDamageRadius: 40
 
     buildingDamageMultiplier: 0.1
@@ -45,7 +45,7 @@ ammoTypes: {
     homingPower: 0.08
     ammoMultiplier: 3
 
-    splashDamage: 150
+    splashDamage: 115
     splashDamageRadius: 48
 
     buildingDamageMultiplier: 0.01
@@ -71,7 +71,7 @@ ammoTypes: {
     homingPower: 0.095
     ammoMultiplier: 2
 
-    splashDamage: 140
+    splashDamage: 95
     splashDamageRadius: 34
 
     lightningDamage: 10
