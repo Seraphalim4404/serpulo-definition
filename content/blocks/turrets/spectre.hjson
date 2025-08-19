@@ -1,5 +1,5 @@
 trackingRange: 312
-reload: 5.5
+reload: 5.75
 shoot: {
   type: shootAlternate
   barrels: 2
@@ -125,7 +125,6 @@ ammoTypes: {
     speed: 7
     ammoMultiplier: 1
 
-    reloadMultiplier: 0.9
     pierce: true
     pierceCap: 3
     pierceDamageFactor: 0.35
