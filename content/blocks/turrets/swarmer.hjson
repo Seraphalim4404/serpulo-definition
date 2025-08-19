@@ -1,3 +1,6 @@
+reload: 120
 shoot: {
   type: ShootAlternate
   barrels: 3
+  shotDelay: 0
+}
