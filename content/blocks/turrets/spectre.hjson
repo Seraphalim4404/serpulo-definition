@@ -13,7 +13,7 @@ ammoTypes: {
     height: 21
     width: 15
     hitSize: 4.8
-    damage: 80
+    damage: 50
     speed: 7.5
     knockback: 0.4
     ammoMultiplier: 2
@@ -81,7 +81,7 @@ ammoTypes: {
     height: 23
     width: 16
     hitSize: 5
-    damage: 95
+    damage: 70
     speed: 8
     knockback: 1.2
     ammoMultiplier: 3
