@@ -48,7 +48,7 @@ ammoTypes: {
     splashDamage: 165
     splashDamageRadius: 52
 
-    buildingDamageMultiplier: 0.1
+    buildingDamageMultiplier: 0.01
 
     status: blasted
     statusDuration: 660
@@ -68,21 +68,42 @@ ammoTypes: {
     lifetime: 85
     damage: 25
     speed: 4.25
-    homingPower: 0.08
+    homingPower: 0.1
     ammoMultiplier: 2
 
     splashDamage: 165
-    splashDamageRadius: 52
+    splashDamageRadius: 34
 
-    buildingDamageMultiplier: 0.1
+    lightningDamage: 10
+    lightning: 3
+    lightningLength: 11
 
-    status: blasted
-    statusDuration: 660
+    buildingDamageMultiplier: 0.01
 
-    frontColor: eeab89
-    backColor: e9665b
-    trailColor: e9665b
-    
+    intervalBullets: 1
+    bulletInterval: 20
+    intervalBullet: {
+      type: BasicBulletType
+      height: 5
+      width: 5
+      hitSize: 5
+      damage: 14
+      speed: 3
+      shrinkY: 0.1
+
+      hitEffect: none
+      shootEffect: none
+      despawnEffect: none
+
+      intervalBullets: 1
+      bulletInterval: 4
+      intervalBullet: {
+        type: LightningBulletType
+        lightningLength: 6
+        damage: 8
+        lightColor: ffffff
+      }
+    }
     hitEffect: blastExplosion
     despawnEffect: blastExplosion
   }
