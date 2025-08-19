@@ -1,4 +1,4 @@
-range: 360
+range: 280
 ammoPerShot: 3
 reload: 120
 shoot: {
