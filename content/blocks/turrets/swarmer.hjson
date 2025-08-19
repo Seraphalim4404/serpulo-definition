@@ -1,4 +1,4 @@
-range: 460
+range: 360
 ammoPerShot: 3
 reload: 120
 shoot: {
@@ -12,7 +12,7 @@ ammoTypes: {
     type: MissileBulletType
     height: 8
     width: 8
-    lifetime: 60
+    lifetime: 75
     speed: 4
     homingPower: 0.07
     ammoMultiplier: 2
