@@ -20,7 +20,7 @@ ammoTypes: {
 
     makeFire: true
     splashDamage: 140
-    splashDamageRadius: 60
+    splashDamageRadius: 48
 
     buildingDamageMultiplier: 0.1
 
