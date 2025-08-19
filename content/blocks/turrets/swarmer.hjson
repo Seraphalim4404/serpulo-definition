@@ -25,7 +25,7 @@ ammoTypes: {
     buildingDamageMultiplier: 0.1
 
     status: burning
-    statusDuration: 1000
+    statusDuration: 660
   }
 }
     
