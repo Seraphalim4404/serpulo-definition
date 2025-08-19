@@ -1,0 +1,3 @@
+shoot: {
+  type: ShootAlternate
+  barrels: 3
