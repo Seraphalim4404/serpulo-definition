@@ -43,6 +43,14 @@ ammoTypes: {
       backColor: dae1ee
       hitColor: dae1ee
     }
+
+    frontColor: 7d89d8
+    backColor: dae1ee
+    hitColor: dae1ee
+    trailColor: dae1ee
+
+    hitEffect: hitBulletColor
+    despawnEffect: hitBulletColor
   }
     silicon: {
     type: BasicBulletType
