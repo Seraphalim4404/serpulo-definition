@@ -1,12 +1,12 @@
 inaccuracy: 18
 range: 280
 ammoPerShot: 3
-reload: 150
+reload: 600
 shoot: {
   type: ShootAlternate
   barrels: 3
-  shots: 3
-  shotDelay: 0
+  shots: 4
+  shotDelay: 3
 }
 ammoTypes: {
   pyratite: {
