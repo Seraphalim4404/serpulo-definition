@@ -14,7 +14,7 @@ ammoTypes: {
     height: 12
     width: 12
     hitSize: 12
-    lifetime: 75
+    lifetime: 85
     damage: 10
     speed: 5
     homingPower: 0.09
@@ -39,11 +39,11 @@ ammoTypes: {
     height: 12
     width: 12
     hitSize: 12
-    lifetime: 85
+    lifetime: 100
     damage: 25
     speed: 4.25
     homingPower: 0.08
-    ammoMultiplier: 2
+    ammoMultiplier: 3
 
     splashDamage: 165
     splashDamageRadius: 52
@@ -65,9 +65,9 @@ ammoTypes: {
     height: 12
     width: 12
     hitSize: 12
-    lifetime: 130
+    lifetime: 125
     damage: 25
-    speed: 3.75
+    speed: 3.4
     homingPower: 0.095
     ammoMultiplier: 2
 
@@ -88,9 +88,14 @@ ammoTypes: {
       width: 5
       hitSize: 5
       damage: 14
-      lifetime: 45
+      lifetime: 15
       speed: 3
       shrinkY: 0.1
+
+      frontColor: ffffff
+      backColor: f3e979
+      hitColor: f3e979
+      trailColor: f3e979
 
       hitEffect: none
       shootEffect: none
@@ -102,9 +107,15 @@ ammoTypes: {
         type: LightningBulletType
         lightningLength: 6
         damage: 8
-        lightColor: ffffff
+        lightningColor: f3e979
       }
     }
+
+    frontColor: ffffff
+    backColor: f3e979
+    hitColor: f3e979
+    trailColor: f3e979
+
     hitEffect: blastExplosion
     despawnEffect: blastExplosion
   }
