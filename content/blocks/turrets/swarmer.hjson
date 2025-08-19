@@ -21,8 +21,8 @@ ammoTypes: {
     ammoMultiplier: 2
 
     makeFire: true
-    splashDamage: 111
-    splashDamageRadius: 40
+    splashDamage: 101
+    splashDamageRadius: 48
 
     buildingDamageMultiplier: 0.1
 
@@ -46,7 +46,7 @@ ammoTypes: {
     ammoMultiplier: 3
 
     splashDamage: 115
-    splashDamageRadius: 48
+    splashDamageRadius: 40
 
     buildingDamageMultiplier: 0.01
 
@@ -72,7 +72,7 @@ ammoTypes: {
     ammoMultiplier: 2
 
     splashDamage: 95
-    splashDamageRadius: 34
+    splashDamageRadius: 30
 
     lightningDamage: 10
     lightning: 3
