@@ -106,11 +106,12 @@ ammoTypes: {
       despawnEffect: none
 
       intervalBullets: 1
-      bulletInterval: 3
+      bulletInterval: 5
       intervalBullet: {
         type: LightningBulletType
         lightningLength: 6
         damage: 8
+        lifetime: 0.1
         lightningColor: f3e979
       }
     }
