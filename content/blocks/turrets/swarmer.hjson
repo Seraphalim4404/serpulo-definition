@@ -45,7 +45,7 @@ ammoTypes: {
     homingPower: 0.08
     ammoMultiplier: 3
 
-    splashDamage: 165
+    splashDamage: 180
     splashDamageRadius: 52
 
     buildingDamageMultiplier: 0.01
