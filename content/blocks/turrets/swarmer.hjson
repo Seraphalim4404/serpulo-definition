@@ -24,8 +24,6 @@ ammoTypes: {
     splashDamage: 101
     splashDamageRadius: 48
 
-    buildingDamageMultiplier: 0.1
-
     status: burning
     statusDuration: 780
 
@@ -47,8 +45,6 @@ ammoTypes: {
 
     splashDamage: 115
     splashDamageRadius: 40
-
-    buildingDamageMultiplier: 0.01
 
     status: blasted
     statusDuration: 660
@@ -77,8 +73,6 @@ ammoTypes: {
     lightningDamage: 10
     lightning: 3
     lightningLength: 11
-
-    buildingDamageMultiplier: 0.01
 
     intervalBullets: 1
     bulletInterval: 15
