@@ -65,10 +65,10 @@ ammoTypes: {
     height: 12
     width: 12
     hitSize: 12
-    lifetime: 85
+    lifetime: 130
     damage: 25
-    speed: 4.25
-    homingPower: 0.1
+    speed: 3.75
+    homingPower: 0.095
     ammoMultiplier: 2
 
     splashDamage: 165
@@ -81,13 +81,14 @@ ammoTypes: {
     buildingDamageMultiplier: 0.01
 
     intervalBullets: 1
-    bulletInterval: 20
+    bulletInterval: 10
     intervalBullet: {
       type: BasicBulletType
       height: 5
       width: 5
       hitSize: 5
       damage: 14
+      lifetime: 45
       speed: 3
       shrinkY: 0.1
 
@@ -96,7 +97,7 @@ ammoTypes: {
       despawnEffect: none
 
       intervalBullets: 1
-      bulletInterval: 4
+      bulletInterval: 5
       intervalBullet: {
         type: LightningBulletType
         lightningLength: 6
