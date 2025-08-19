@@ -1,3 +1,5 @@
+range: 460
+ammoPerShot: 3
 reload: 120
 shoot: {
   type: ShootAlternate
@@ -5,3 +7,22 @@ shoot: {
   shots: 3
   shotDelay: 0
 }
+ammoTypes: {
+  pyratite: {
+    type: MissileBulletType
+    height: 8
+    width: 8
+    lifetime: 60
+    speed: 4
+    homingPower: 0.07
+    ammoMultiplier: 2
+
+    makeFire: true
+    splashDamage: 140
+    splashDamageRadius: 60
+
+    status: burning
+    statusDuration: 1000
+  }
+}
+    
