@@ -40,13 +40,13 @@ ammoTypes: {
     width: 12
     hitSize: 12
     lifetime: 100
-    damage: 25
+    damage: 30
     speed: 4.25
     homingPower: 0.08
     ammoMultiplier: 3
 
-    splashDamage: 180
-    splashDamageRadius: 52
+    splashDamage: 150
+    splashDamageRadius: 48
 
     buildingDamageMultiplier: 0.01
 
@@ -71,7 +71,7 @@ ammoTypes: {
     homingPower: 0.095
     ammoMultiplier: 2
 
-    splashDamage: 165
+    splashDamage: 140
     splashDamageRadius: 34
 
     lightningDamage: 10
