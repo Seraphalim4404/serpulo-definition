@@ -46,6 +46,27 @@ ammoTypes: {
 
     despawnEffect: hitBulletColor
   }
+  spore: {
+    type: ArtilleryBulletType
+    height: 15
+    width: 15
+    hitSize: 24
+    splashDamage: 5
+    splashDamageRadius: 40
+    knockback: 0.1
+    speed: 2.5
+    lifetime: 240
+    collidesTiles: false
+    ammoMultiplier: 1
+
+    status: spore-slowed
+    statusDuration: 860
+
+    frontColor: 7c60d7
+    backColor: 7457ce
+    hitColor: 7457ce
+    trailColor: 7457ce
+  }
   pyratite: {
     type: ArtilleryBulletType
     height: 13
@@ -81,7 +102,7 @@ ammoTypes: {
     splashDamageRadius: 43
     knockback: 1
     speed: 2
-    lifetime: 80
+    lifetime: 120
     collidesTiles: false
     ammoMultiplier: 3
 
