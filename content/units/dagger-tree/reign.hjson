@@ -1,6 +1,6 @@
 weapons: [
   {
-    name: "reign-weapon"
+    name: reign-augment
     top: false
     y: 1
     x: 21.5
@@ -20,7 +20,7 @@ weapons: [
       width: 14
       height: 33
       damage: 80
-      lifetime: 40
+      lifetime: 25
       speed: 13
 
       splashDamage: 18
