@@ -46,7 +46,7 @@ ammoTypes: {
 
     despawnEffect: hitBulletColor
   }
-  spore: {
+  spore-pod: {
     type: ArtilleryBulletType
     height: 15
     width: 15
