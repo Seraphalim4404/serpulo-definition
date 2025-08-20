@@ -60,7 +60,7 @@ ammoTypes: {
     ammoMultiplier: 1
     inaccuracy: 13
 
-    reloadMultiplier: 0.3
+    reloadMultiplier: 0.1
 
     status: spore-slowed
     statusDuration: 860
@@ -69,7 +69,7 @@ ammoTypes: {
     minRange: 102
 
     intervalBullets: 2
-    bulletInterval: 60
+    bulletInterval: 45
 
     intervalAngle: 180
     intervalSpread: 280
@@ -79,9 +79,9 @@ ammoTypes: {
       height: 8
       width: 8
       damage: 9
-      lifetime: 60
+      lifetime: 35
       speed: -1.9
-      shrinkY: 0.016666666667
+      shrinkY: 0.09
 
       explodeRange: 25
       splashDamage: 12
@@ -103,16 +103,16 @@ ammoTypes: {
       hitEffect: none
       despawnEffect: none
 
-      intervalBullets: 3
-      bulletInterval: 50
+      intervalBullets: 1
+      bulletInterval: 20
       intervalBullet: {
         type: BasicBulletType
         height: 8
         width: 8
         damage: 3
-        lifetime: 100
+        lifetime: 30
         speed: 2.2
-        shrinkY: 0.01
+        shrinkY: 0.1
           
         explodeRange: 15
         splashDamage: 7
@@ -140,7 +140,7 @@ ammoTypes: {
     hitColor: 7457ce
     trailColor: 7457ce
 
-    hitEffect: reactorExplosion
+    hitEffect: smokeAoeCloud
   }
   pyratite: {
     type: ArtilleryBulletType
