@@ -66,6 +66,7 @@ ammoTypes: {
     statusDuration: 860
 
     addRange: 128
+    minRange: 96
 
     intervalBullets: 2
     bulletInterval: 20
@@ -86,7 +87,7 @@ ammoTypes: {
       splashDamage: 12
       splashDamageRadius: 30
 
-      status: corrosion
+      status: corroded
       statusDuration: 600
 
       frontColor: 7c60d7
