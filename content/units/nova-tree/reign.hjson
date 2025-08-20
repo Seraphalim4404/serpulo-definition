@@ -1,6 +1,5 @@
 weapons: [
   {
-    name: reign-weapon
     display: true
     top: false
     x: -23.5
