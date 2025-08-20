@@ -104,7 +104,7 @@ ammoTypes: {
       despawnEffect: none
 
       intervalBullets: 1
-      bulletInterval: 20
+      bulletInterval: 5
       intervalBullet: {
         type: BasicBulletType
         height: 8
