@@ -69,7 +69,7 @@ ammoTypes: {
     rangeChange: 104
 
     intervalBullets: 1
-    bulletInterval: 20
+    bulletInterval: 15
 
     intervalAngle: 180
     intervalSpread: 280
