@@ -31,8 +31,8 @@ weapons: [
 
       fragBullets: 3
       fragLifeMin: 0
-      fragRandomSpread: 0
-      fragBullets: {
+      fragRandomSpread: 30
+      fragBullet: {
         type: BasicBulletType
         height: 10
         width: 10
