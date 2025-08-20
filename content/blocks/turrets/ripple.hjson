@@ -76,7 +76,7 @@ ammoTypes: {
     intervalRandomSpread: 20
     intervalBullet: {
       type BasicBulletType
-      height: 8
+      "height": 8
       width: 8
       damage: 9
       lifetime: 60
