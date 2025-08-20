@@ -1,0 +1,28 @@
+weapons: [
+  {
+    name: reign-weapon
+    display: true
+    top: false
+    x: -23.5
+    y: 1
+    shootY: 11.25
+    reload: 15
+    recoil: 3
+    shake: 2
+    inaccuracy: 3
+    shoot: {
+      shots: 4
+      shotDelay: 3
+    }
+    ejectEffect: casing4
+    shootSound: bang
+    bullet: {
+      type: BasicBulletType
+      width: 16
+      height: 33
+      damage: 130
+      speed: 8
+      pierceArmor: true
+    }
+  }
+]
