@@ -1,13 +1,12 @@
 weapons: [
   {
     name: reign-weapon
-    display: true
     top: false
-    x: -23.5
     y: 1
-    shootY: 11.25
+    x: 21.5
+    shootY: 11
     reload: 15
-    recoil: 3
+    recoil: 5
     shake: 2
     inaccuracy: 3
     shoot: {
@@ -18,11 +17,40 @@ weapons: [
     shootSound: bang
     bullet: {
       type: BasicBulletType
-      width: 16
+      width: 14
       height: 33
-      damage: 130
-      speed: 8
-      pierceArmor: true
+      damage: 80
+      lifetime: 40
+      speed: 13
+
+      splashDamage: 18
+      splashDamageRadius: 13
+
+      pierce: true
+      pierceCap: 10
+
+      fragBullets: 3
+      fragLifeMin: 0
+      fragRandomSpread: 0
+      fragBullets: {
+        type: BasicBulletType
+        height: 10
+        width: 10
+        damage: 20
+        lifetime: 20
+        speed: 9
+
+        splashDamage: 15
+        splashDamageRadius: 10
+
+        pierce: true
+        pierceCap: 3
+        pierceBuilding: true
+
+        hitEffect: flakExplosion
+      }
+
+      hitEffect: blastExplosion
     }
   }
 ]
