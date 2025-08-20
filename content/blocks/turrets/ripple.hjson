@@ -54,17 +54,17 @@ ammoTypes: {
     splashDamage: 15
     splashDamageRadius: 72
     knockback: 0.1
-    speed: 1.75
-    lifetime: 1020
+    speed: 3
+    lifetime: 480
     collidesTiles: false
     ammoMultiplier: 1
-    inaccuracy: 23
+    inaccuracy: 13
 
-    reloadMultiplier: 0.05
+    reloadMultiplier: 1.5
     buildingDamageMultiplier: 0.1
 
     status: spore-slowed
-    statusDuration: 860
+    statusDuration: 60
 
     rangeChange: 152
     minRange: 102
@@ -90,7 +90,7 @@ ammoTypes: {
 
       buildingDamageMultiplier: 0.1
       status: corroded
-      statusDuration: 600
+      statusDuration: 60
 
       frontColor: 7c60d7
       backColor: 7457ce
@@ -122,7 +122,7 @@ ammoTypes: {
 
         buildingDamageMultiplier: 0.1
         status: tarred
-        statusDuration: 360
+        statusDuration: 60
 
         frontColor: 7c60d7
         backColor: 7457ce
