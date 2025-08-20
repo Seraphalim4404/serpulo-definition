@@ -1,6 +1,6 @@
 weapons: [
   {
-    name: reign-weapon
+    name: "reign-weapon"
     top: false
     y: 1
     x: 21.5
