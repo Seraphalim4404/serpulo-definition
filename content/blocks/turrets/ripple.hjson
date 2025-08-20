@@ -55,7 +55,7 @@ ammoTypes: {
     splashDamageRadius: 72
     knockback: 0.1
     speed: 3
-    lifetime: 480
+    lifetime: 420
     collidesTiles: false
     ammoMultiplier: 1
     inaccuracy: 13
@@ -66,8 +66,7 @@ ammoTypes: {
     status: spore-slowed
     statusDuration: 60
 
-    rangeChange: 152
-    minRange: 102
+    rangeChange: 104
 
     intervalBullets: 2
     bulletInterval: 21
@@ -142,7 +141,7 @@ ammoTypes: {
     hitColor: 7457ce
     trailColor: 7457ce
 
-    hitEffect: smokeAoeCloud
+    hitEffect: fallSmoke
   }
   pyratite: {
     type: ArtilleryBulletType
