@@ -55,7 +55,7 @@ ammoTypes: {
     splashDamageRadius: 40
     knockback: 0.1
     speed: 1.75
-    lifetime: 840
+    lifetime: 1020
     collidesTiles: false
     ammoMultiplier: 1
     inaccuracy: 13
@@ -65,11 +65,11 @@ ammoTypes: {
     status: spore-slowed
     statusDuration: 860
 
-    addRange: 128
-    minRange: 96
+    rangeChange: 152
+    minRange: 102
 
     intervalBullets: 2
-    bulletInterval: 20
+    bulletInterval: 60
 
     intervalAngle: 180
     intervalSpread: 280
@@ -104,7 +104,7 @@ ammoTypes: {
       despawnEffect: none
 
       intervalBullets: 3
-      bulletInterval: 5
+      bulletInterval: 50
       intervalBullet: {
         type: BasicBulletType
         height: 8
@@ -128,7 +128,7 @@ ammoTypes: {
 
         trailLength: 3
         trailWidth: 2
-        trailChance: 0.22
+        trailChance: 0.11
 
         trailEffect: vaporSmall
         hitEffect: none
