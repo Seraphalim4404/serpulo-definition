@@ -112,7 +112,7 @@ ammoTypes: {
         damage: 3
         lifetime: 100
         speed: 2.2
-        shrinkY: 0.016666666667
+        shrinkY: 0.01
           
         explodeRange: 15
         splashDamage: 7
