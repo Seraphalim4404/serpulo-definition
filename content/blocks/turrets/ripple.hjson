@@ -135,7 +135,6 @@ ammoTypes: {
         despawnEffect: none
       }
     }
-
     frontColor: 7c60d7
     backColor: 7457ce
     hitColor: 7457ce
