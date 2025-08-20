@@ -69,7 +69,7 @@ ammoTypes: {
     minRange: 102
 
     intervalBullets: 2
-    bulletInterval: 45
+    bulletInterval: 15
 
     intervalAngle: 180
     intervalSpread: 280
@@ -130,7 +130,6 @@ ammoTypes: {
         trailWidth: 2
         trailChance: 0.11
 
-        trailEffect: vaporSmall
         hitEffect: none
         despawnEffect: none
       }
