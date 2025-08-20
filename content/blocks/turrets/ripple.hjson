@@ -51,22 +51,96 @@ ammoTypes: {
     height: 15
     width: 15
     hitSize: 24
-    splashDamage: 5
+    splashDamage: 20
     splashDamageRadius: 40
     knockback: 0.1
-    speed: 2.5
-    lifetime: 240
+    speed: 1.75
+    lifetime: 840
     collidesTiles: false
     ammoMultiplier: 1
     inaccuracy: 13
 
+    reloadMultiplier: 0.3
+
     status: spore-slowed
     statusDuration: 860
+
+    addRange: 128
+    minRange: 96
+
+    intervalBullets: 2
+    bulletInterval: 20
+
+    intervalAngle: 180
+    intervalSpread: 280
+    intervalRandomSpread: 20
+    intervalBullet: {
+      type BasicBulletType
+      height: 8
+      width: 8
+      damage: 9
+      lifetime: 60
+      speed: -1.9
+      shrinkY: 0.016666666667
+
+      explodeRange: 25
+      splashDamage: 12
+      splashDamageRadius: 30
+
+      status: corrosion
+      statusDuration: 600
+
+      intervalBullets: 3
+      bulletInterval: 5
+      intervalBullet: {
+        type: BasicBulletType
+        height: 8
+        width: 8
+        damage: 3
+        lifetime: 100
+        speed: 2.2
+        shrinkY: 0.016666666667
+          
+        explodeRange: 15
+        splashDamage: 7
+        splashDamageRadius: 20
+
+        status: tarred
+        statusDuration: 360
+
+        frontColor: 7c60d7
+        backColor: 7457ce
+        hitColor: 7457ce
+        trailColor: 7457ce
+
+        trailLength: 3
+        trailWidth: 2
+        trailChance: 0.22
+
+        trailEffect: vaporSmall
+        hitEffect: none
+        despawnEffect: none
+      }
+      frontColor: 7c60d7
+      backColor: 7457ce
+      hitColor: 7457ce
+      trailColor: 7457ce
+
+      trailLength: 3
+      trailWidth: 2
+      trailChance: 0.22
+
+      trailEffect: vaporSmall
+      hitEffect: none
+      despawnEffect: none
+    }
 
     frontColor: 7c60d7
     backColor: 7457ce
     hitColor: 7457ce
     trailColor: 7457ce
+
+    hitEffect: reactorExplosion
   }
   pyratite: {
     type: ArtilleryBulletType
