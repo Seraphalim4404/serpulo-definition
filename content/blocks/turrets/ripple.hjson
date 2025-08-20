@@ -98,7 +98,7 @@ ammoTypes: {
 
       trailLength: 3
       trailWidth: 2
-      trailChance: 0.11
+      trailChance: 0.055
 
       trailEffect: vaporSmall
       hitEffect: none
@@ -138,10 +138,10 @@ ammoTypes: {
     }
     frontColor: 7c60d7
     backColor: 7457ce
-    hitColor: 7457ce
+    hitColor: 171129
     trailColor: 7457ce
 
-    hitEffect: fallSmoke
+    hitEffect: smokeAoeCloud
   }
   pyratite: {
     type: ArtilleryBulletType
