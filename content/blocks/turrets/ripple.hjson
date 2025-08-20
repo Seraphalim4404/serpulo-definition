@@ -58,6 +58,7 @@ ammoTypes: {
     lifetime: 240
     collidesTiles: false
     ammoMultiplier: 1
+    inaccuracy: 13
 
     status: spore-slowed
     statusDuration: 860
