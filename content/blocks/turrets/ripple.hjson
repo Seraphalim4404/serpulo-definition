@@ -90,6 +90,19 @@ ammoTypes: {
       status: corrosion
       statusDuration: 600
 
+      frontColor: 7c60d7
+      backColor: 7457ce
+      hitColor: 7457ce
+      trailColor: 7457ce
+
+      trailLength: 3
+      trailWidth: 2
+      trailChance: 0.22
+
+      trailEffect: vaporSmall
+      hitEffect: none
+      despawnEffect: none
+
       intervalBullets: 3
       bulletInterval: 5
       intervalBullet: {
@@ -121,18 +134,6 @@ ammoTypes: {
         hitEffect: none
         despawnEffect: none
       }
-      frontColor: 7c60d7
-      backColor: 7457ce
-      hitColor: 7457ce
-      trailColor: 7457ce
-
-      trailLength: 3
-      trailWidth: 2
-      trailChance: 0.22
-
-      trailEffect: vaporSmall
-      hitEffect: none
-      despawnEffect: none
     }
 
     frontColor: 7c60d7
