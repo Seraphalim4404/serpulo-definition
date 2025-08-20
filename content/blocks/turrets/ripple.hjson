@@ -66,7 +66,6 @@ ammoTypes: {
     statusDuration: 860
 
     addRange: 128
-    minRange: 96
 
     intervalBullets: 2
     bulletInterval: 20
