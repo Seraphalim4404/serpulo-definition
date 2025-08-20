@@ -68,7 +68,7 @@ ammoTypes: {
 
     rangeChange: 104
 
-    intervalBullets: 2
+    intervalBullets: 1
     bulletInterval: 21
 
     intervalAngle: 180
@@ -130,7 +130,7 @@ ammoTypes: {
 
         trailLength: 3
         trailWidth: 2
-        trailChance: 0.11
+        trailChance: 0.055
 
         hitEffect: none
         despawnEffect: none
