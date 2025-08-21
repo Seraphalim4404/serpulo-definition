@@ -91,7 +91,7 @@ ammoTypes: {
         splashDamageRadius: 60
         hitSound: none
 
-        buildingDamageMultiplier: 0.5
+        buildingDamageMultiplier: 0.1
 
         frontColor: 7c60d7
         backColor: 7457ce
