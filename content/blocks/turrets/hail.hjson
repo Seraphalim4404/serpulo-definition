@@ -1,0 +1,136 @@
+ammoTypes: {
+  graphite: {
+    type: ArtilleryBulletType
+    height: 11
+    width: 11
+    hitSize: 20
+    splashDamage: 33
+    splashDamageRadius: 18.75
+    knockback: 0.8
+    speed: 3
+    lifetime: 80
+    collidesTiles: false
+    ammoMultiplier: 3
+
+    frontColor: 7d89d8
+    backColor: dae1ee
+    hitColor: dae1ee
+
+    despawnEfect: hitBulletColor
+  }
+  silicon: {
+    type: ArtilleryBulletType
+    height: 11
+    width: 11
+    hitSize: 20
+    splashDamage: 33
+    splashDamageRadius: 18.75
+    knockback: 0.8
+    speed: 3
+    lifetime: 80
+    collidesTiles: false
+    ammoMultiplier: 3
+
+    reloadMultiplier: 1.2
+    
+    homingPower: 0.08
+    homingRange: 50
+
+    frontColor: 707594
+    backColor: 999ba0
+    hitColor: 999ba0
+    trailColor: 999ba0
+
+    trailLength: 7
+    trailWidth: 3
+
+    despawnEffect: hitBulletColor
+  }
+  spore-pod: {
+    type: ArtilleryBulletType
+    height: 11
+    width: 11
+    hitSize: 20
+    splashDamage: 25
+    splashDamageRadius: 96
+    knockback: 0.8
+    speed: 3
+    lifetime: 80
+    collidesTiles: false
+    ammoMultiplier: 1
+    inaccuracy: 13
+
+    reloadMultiplier: 0.5
+
+    status: spore-slowed
+    statusDuration: 30
+
+    fragBullets: 1
+    fragBullet: {
+      type: ArtilleryBulletType
+      height: 5
+      width: 5
+      hitSize: 5
+      splashDamage: 5
+      splashDamageRadius: 96
+      knockback: 0.8
+      speed: 0
+      lifetime: 180
+      collidesTiles: false
+
+      intervalBullets: 1
+      bulletInterval: 15
+
+      intervalBullet: {
+        type: ArtilleryBulletType
+        instantDisappear: true
+        height: 8
+        width: 8
+        splashDamage: 5
+        splashDamageRadius: 60
+
+        frontColor: 7c60d7
+        backColor: 7457ce
+        hitColor: 7457ce
+        trailColor: 7457ce
+
+        trailEffect: none
+        hitEffect: none
+        despawnEffect: none
+      }
+    }
+    frontColor: 7c60d7
+    backColor: 7457ce
+    hitColor: 7457ce
+    trailColor: 7457ce
+
+    hitEffect: smokeAoeCloud
+  }
+  pyratite: {
+    type: ArtilleryBulletType
+    height: 13
+    width: 13
+    hitSize: 25
+    splashDamage: 45
+    splashDamageRadius: 26
+    knockback: 0.8
+    speed: 3
+    lifetime: 80
+    collidesTiles: false
+    ammoMultiplier: 4
+
+    status: burning
+    statusDuration: 720
+
+    makeFire: true
+
+    frontColor: f8ad42
+    backColor: f68021
+    hitColor: f68021
+
+    trailChance: 0.33
+
+    trailEffect: incendTrail
+    hitFfect: blastExplosion
+    despawnEfect: hitBulletColor
+  }
