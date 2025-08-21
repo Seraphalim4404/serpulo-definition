@@ -80,14 +80,14 @@ ammoTypes: {
       hitSound: none
 
       intervalBullets: 1
-      bulletInterval: 5
+      bulletInterval: 45
 
       intervalBullet: {
         type: ArtilleryBulletType
         instantDisappear: true
         height: 8
         width: 8
-        splashDamage: 4
+        splashDamage: 20
         splashDamageRadius: 60
         hitSound: none
 
