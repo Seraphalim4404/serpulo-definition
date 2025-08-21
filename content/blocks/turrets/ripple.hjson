@@ -138,10 +138,11 @@ ammoTypes: {
     }
     frontColor: 7c60d7
     backColor: 7457ce
-    hitColor: 040308
+    hitColor: 140f24
     trailColor: 7457ce
 
     hitEffect: smokeAoeCloud
+    despawnEffect: none
   }
   pyratite: {
     type: ArtilleryBulletType
