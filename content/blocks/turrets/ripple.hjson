@@ -64,7 +64,7 @@ ammoTypes: {
     buildingDamageMultiplier: 0.1
 
     status: spore-slowed
-    statusDuration: 60
+    statusDuration: 20
 
     rangeChange: 104
 
@@ -78,18 +78,18 @@ ammoTypes: {
       type: BasicBulletType
       height: 8
       width: 8
-      damage: 9
+      damage: 4
       lifetime: 35
       speed: -1.9
       shrinkY: 0.09
 
       explodeRange: 25
-      splashDamage: 12
-      splashDamageRadius: 30
+      splashDamage: 7
+      splashDamageRadius: 20
 
       buildingDamageMultiplier: 0.1
       status: corroded
-      statusDuration: 60
+      statusDuration: 30
 
       frontColor: 7c60d7
       backColor: 7457ce
@@ -110,18 +110,18 @@ ammoTypes: {
         type: BasicBulletType
         height: 8
         width: 8
-        damage: 3
+        damage: 2
         lifetime: 30
         speed: 2.2
         shrinkY: 0.1
           
         explodeRange: 15
-        splashDamage: 7
+        splashDamage: 4
         splashDamageRadius: 20
 
         buildingDamageMultiplier: 0.1
         status: tarred
-        statusDuration: 60
+        statusDuration: 20
 
         frontColor: 7c60d7
         backColor: 7457ce
@@ -138,7 +138,7 @@ ammoTypes: {
     }
     frontColor: 7c60d7
     backColor: 7457ce
-    hitColor: 171129
+    hitColor: 040308
     trailColor: 7457ce
 
     hitEffect: smokeAoeCloud
