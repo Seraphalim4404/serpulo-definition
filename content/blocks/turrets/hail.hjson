@@ -60,14 +60,14 @@ ammoTypes: {
     ammoMultiplier: 1
     inaccuracy: 13
 
-    reloadMultiplier: 0.5
+    reloadMultiplier: 0.2
 
     status: spore-slowed
     statusDuration: 30
 
     fragBullets: 1
     fragBullet: {
-      type: ArtilleryBulletType
+      type: BasicBulletType
       height: 5
       width: 5
       hitSize: 5
@@ -79,14 +79,14 @@ ammoTypes: {
       collidesTiles: false
 
       intervalBullets: 1
-      bulletInterval: 15
+      bulletInterval: 5
 
       intervalBullet: {
-        type: ArtilleryBulletType
+        type: BasicBulletType
         instantDisappear: true
         height: 8
         width: 8
-        splashDamage: 5
+        splashDamage: 3
         splashDamageRadius: 60
 
         frontColor: 7c60d7
