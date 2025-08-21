@@ -61,6 +61,9 @@ ammoTypes: {
     inaccuracy: 5
 
     reloadMultiplier: 0.2
+    buildingDamageMultiplier: 0.4
+
+    pierceArmor: true
 
     status: spore-slowed
     statusDuration: 15
@@ -78,6 +81,10 @@ ammoTypes: {
       lifetime: 180
       collidesTiles: false
       hitSound: none
+
+      buildingDamageMultiplier: 0.4
+
+      pierceArmor: true
 
       intervalBullets: 1
       bulletInterval: 5
