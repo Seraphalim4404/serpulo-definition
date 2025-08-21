@@ -121,7 +121,7 @@ ammoTypes: {
     width: 13
     hitSize: 25
     splashDamage: 45
-    splashDamageRadius: 26
+    splashDamageRadius: 18.75
     knockback: 0.8
     speed: 3
     lifetime: 80
