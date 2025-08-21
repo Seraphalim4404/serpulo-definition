@@ -60,7 +60,7 @@ ammoTypes: {
     ammoMultiplier: 1
     inaccuracy: 5
 
-    reloadMultiplier: 0.15
+    reloadMultiplier: 0.2
 
     status: spore-slowed
     statusDuration: 15
@@ -80,18 +80,20 @@ ammoTypes: {
       hitSound: none
 
       intervalBullets: 1
-      bulletInterval: 45
+      bulletInterval: 5
 
       intervalBullet: {
         type: ArtilleryBulletType
         instantDisappear: true
         height: 8
         width: 8
-        splashDamage: 20
+        splashDamage: 4
         splashDamageRadius: 60
         hitSound: none
 
         buildingDamageMultiplier: 0.1
+
+        pierceArmor: true
 
         frontColor: 7c60d7
         backColor: 7457ce
