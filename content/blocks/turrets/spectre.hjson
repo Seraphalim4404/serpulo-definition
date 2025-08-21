@@ -189,8 +189,10 @@ ammoTypes: {
   }
 }
 hasLiquids: true
-consumes: {
-  coolant: {
-    amount: 0.33333333333
-  }
+coolant: {
+  type: ConsumeCoolant
+  allowLiquid: true
+  amount: 0.33333333333
+  optional: true
+  booster: true
 }
