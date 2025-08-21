@@ -188,13 +188,3 @@ ammoTypes: {
     despawnEffect: hitBulletColor
   }
 }
-
-coolantMultiplier: 1.5
-coolant: {
-  type: ConsumeCoolant
-  allowLiquid: true
-  allowGas: false
-  optional: true
-  booster: true
-  amount: 0.33333333333
-}
