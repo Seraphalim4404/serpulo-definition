@@ -98,7 +98,16 @@ ammoTypes: {
         hitEffect: none
         despawnEffect: none
       }
+      frontColor: 7c60d7
+      backColor: 7457ce
+      hitColor: 7457ce
+      trailColor: 7457ce
+
+      trailEffect: none
+      hitEffect: none
+      despawnEffect: none
     }
+
     frontColor: 7c60d7
     backColor: 7457ce
     hitColor: 7457ce
@@ -134,3 +143,4 @@ ammoTypes: {
     hitFfect: blastExplosion
     despawnEfect: hitBulletColor
   }
+}
