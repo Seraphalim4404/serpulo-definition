@@ -188,3 +188,9 @@ ammoTypes: {
     despawnEffect: hitBulletColor
   }
 }
+hasLiquids: true
+consumes: {
+  coolant: {
+    amount: 0.33333333333
+  }
+}
