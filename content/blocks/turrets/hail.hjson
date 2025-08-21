@@ -58,36 +58,40 @@ ammoTypes: {
     lifetime: 80
     collidesTiles: false
     ammoMultiplier: 1
-    inaccuracy: 13
+    inaccuracy: 5
 
-    reloadMultiplier: 0.2
+    reloadMultiplier: 0.15
 
     status: spore-slowed
-    statusDuration: 30
+    statusDuration: 15
 
     fragBullets: 1
     fragBullet: {
-      type: BasicBulletType
+      type: ArtilleryBulletType
       height: 5
       width: 5
       hitSize: 5
-      splashDamage: 5
+      splashDamage: 10
       splashDamageRadius: 96
       knockback: 0.8
       speed: 0
       lifetime: 180
       collidesTiles: false
+      hitSound: none
 
       intervalBullets: 1
       bulletInterval: 5
 
       intervalBullet: {
-        type: BasicBulletType
+        type: ArtilleryBulletType
         instantDisappear: true
         height: 8
         width: 8
-        splashDamage: 3
+        splashDamage: 4
         splashDamageRadius: 60
+        hitSound: none
+
+        buildingDamageMultiplier: 0.5
 
         frontColor: 7c60d7
         backColor: 7457ce
