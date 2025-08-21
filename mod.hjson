@@ -1,7 +1,12 @@
 name: serpulo-definition
-displayName: "Serpulo Definition: Remake"
+displayName: "Serpulo: Augmented Definition"
 author: Seraphim4404
 subtitle: "[[]#7d4dff]The horror...[]"
-description: "A mod that remakes serpulo and all."
-version: 0.4
+description:
+  '''
+  [red[]]This is a mod that is a remake or enhancing serpulo for fun with additions to various turrets and units, sometimes with a rebalance.
+
+  [white[]]A mod that enhances serpulo by adding more ammunitions to turrets as well as enhancing the units. This is not intended to be for an actual rebalance mod.
+  '''
+version: 0.51
 minGameVersion: 146
