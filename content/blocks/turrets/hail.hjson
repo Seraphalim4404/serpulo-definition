@@ -51,7 +51,7 @@ ammoTypes: {
     height: 11
     width: 11
     hitSize: 20
-    splashDamage: 25
+    splashDamage: 40
     splashDamageRadius: 96
     knockback: 0.8
     speed: 3
@@ -60,8 +60,8 @@ ammoTypes: {
     ammoMultiplier: 1
     inaccuracy: 5
 
-    reloadMultiplier: 0.2
-    buildingDamageMultiplier: 0.4
+    reloadMultiplier: 0.15
+    buildingDamageMultiplier: 0.25
 
     pierceArmor: true
 
@@ -82,8 +82,9 @@ ammoTypes: {
       collidesTiles: false
       hitSound: none
 
-      buildingDamageMultiplier: 0.4
+      buildingDamageMultiplier: 0.15
 
+      pierce: true
       pierceArmor: true
 
       intervalBullets: 1
@@ -98,8 +99,9 @@ ammoTypes: {
         splashDamageRadius: 60
         hitSound: none
 
-        buildingDamageMultiplier: 0.1
+        buildingDamageMultiplier: 0.01
 
+        pierce: true
         pierceArmor: true
 
         frontColor: 7c60d7
