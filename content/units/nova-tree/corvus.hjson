@@ -20,7 +20,6 @@ weapons: [
 
     shootSound: beam
     chargeSound: none
-    // lasercharge
     
     continuous: true
 
