@@ -64,6 +64,7 @@ ammoTypes: {
     buildingDamageMultiplier: 0.25
 
     pierceArmor: true
+    pierceBuilding: true
 
     status: spore-slowed
     statusDuration: 15
@@ -82,10 +83,11 @@ ammoTypes: {
       collidesTiles: false
       hitSound: none
 
-      buildingDamageMultiplier: 0.15
+      buildingDamageMultiplier: 0.25
 
       pierce: true
       pierceArmor: true
+      pierceBuilding: true
 
       intervalBullets: 1
       bulletInterval: 5
@@ -99,10 +101,11 @@ ammoTypes: {
         splashDamageRadius: 60
         hitSound: none
 
-        buildingDamageMultiplier: 0.01
+        buildingDamageMultiplier: 0.05
 
         pierce: true
         pierceArmor: true
+        pierceBuilding: true
 
         frontColor: 7c60d7
         backColor: 7457ce
