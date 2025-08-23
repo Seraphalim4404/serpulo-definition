@@ -19,6 +19,7 @@ weapons: [
     shootStatusDuration: 540
 
     shootSound: beam
+    //test
     chargeSound: none
     
     continuous: true
