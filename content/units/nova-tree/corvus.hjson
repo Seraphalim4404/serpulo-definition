@@ -35,7 +35,7 @@ weapons: [
       width: 9
       damage: 68.75
 
-      lifetime: 0
+      lifetime: 1
       fadeTime: 0
 
       lightningSpacing: 35
