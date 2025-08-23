@@ -10,7 +10,7 @@ weapons: [
     top: false
     mirror: false
     shake: 14
-    reload: 0
+    reload: 580
     recoil: 130
 
     cooldownTime: 580
@@ -19,8 +19,7 @@ weapons: [
     shootStatusDuration: 540
 
     shootSound: beam
-    //test
-    chargeSound: none
+    chargeSound: lasercharge
     
     continuous: true
 
@@ -35,8 +34,8 @@ weapons: [
       width: 9
       damage: 68.75
 
-      lifetime: 1
-      fadeTime: 0
+      lifetime: 300
+      fadeTime: 50
 
       lightningSpacing: 35
       lightningLength: 5
