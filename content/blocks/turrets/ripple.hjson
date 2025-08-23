@@ -51,16 +51,16 @@ ammoTypes: {
     height: 15
     width: 15
     hitSize: 24
-    splashDamage: 15
+    splashDamage: 30
     splashDamageRadius: 72
     knockback: 0.1
     speed: 3
     lifetime: 420
     collidesTiles: false
     ammoMultiplier: 1
-    inaccuracy: 13
+    inaccuracy: 18
 
-    reloadMultiplier: 1.5
+    reloadMultiplier: 1.2
     buildingDamageMultiplier: 0.1
 
     status: spore-slowed
@@ -87,9 +87,9 @@ ammoTypes: {
       splashDamage: 7
       splashDamageRadius: 20
 
-      buildingDamageMultiplier: 0.1
+      buildingDamageMultiplier: 0.05
       status: corroded
-      statusDuration: 30
+      statusDuration: 20
 
       frontColor: 7c60d7
       backColor: 7457ce
@@ -119,7 +119,7 @@ ammoTypes: {
         splashDamage: 4
         splashDamageRadius: 20
 
-        buildingDamageMultiplier: 0.1
+        buildingDamageMultiplier: 0.05
         status: tarred
         statusDuration: 20
 
