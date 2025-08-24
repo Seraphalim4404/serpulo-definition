@@ -7,6 +7,7 @@ shoot: {
 }
 
 maxAmmo: 40
+ammoPerShot: 4
 ammoTypes: {
   graphite: {
     type: BasicBulletType
@@ -60,7 +61,7 @@ ammoTypes: {
     damage: 20
     speed: 7.5
     lifetime: 50
-    ammoMultiplier: 4
+    ammoMultiplier: 1
     
     reloadMultiplier: 1.2
     rangeChange: 40
