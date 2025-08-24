@@ -58,7 +58,7 @@ ammoTypes: {
     height: 21
     width: 15
     hitSize: 4.8
-    damage: 20
+    damage: 50
     speed: 7.5
     lifetime: 50
     ammoMultiplier: 1
