@@ -60,7 +60,7 @@ ammoTypes: {
     hitSize: 4.8
     damage: 50
     speed: 7.5
-    knockback: 0.1
+    knockback: 1.4
     lifetime: 50
     ammoMultiplier: 1
     
