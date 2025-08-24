@@ -17,7 +17,7 @@ ammoTypes: {
     damage: 50
     speed: 7.5
     knockback: 0.4
-    ammoMultiplier: 2
+    ammoMultiplier: 8
     
     reloadMultiplier: 1.15
     pierce: true
@@ -86,7 +86,7 @@ ammoTypes: {
     damage: 70
     speed: 8
     knockback: 1.2
-    ammoMultiplier: 3
+    ammoMultiplier: 12
 
     pierce: true
     pierceCap: 4
@@ -124,7 +124,7 @@ ammoTypes: {
     hitSize: 5
     damage: 70
     speed: 7
-    ammoMultiplier: 1
+    ammoMultiplier: 4
 
     pierce: true
     pierceCap: 3
