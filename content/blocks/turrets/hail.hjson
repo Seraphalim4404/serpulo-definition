@@ -214,7 +214,7 @@ ammoTypes: {
         collidesTiles: true
 
         homingPower: 0.1
-        homingRange: 40
+        homingRange: 72
 
         buildingDamageMultiplier: 0
 
