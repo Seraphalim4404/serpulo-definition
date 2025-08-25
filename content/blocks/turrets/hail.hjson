@@ -203,8 +203,8 @@ ammoTypes: {
       
       intervalBullet: {
         type: BasicBulletType
-        height: 14
-        width: 21
+        height: 7
+        width: 14
         hitSize: 14
         speed: 2.3
         lifetime: 120
