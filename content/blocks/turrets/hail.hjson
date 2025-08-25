@@ -161,4 +161,76 @@ ammoTypes: {
     hitFfect: blastExplosion
     despawnEfect: hitBulletColor
   }
+  blast-compound: {
+    type: ArtilleryBulletType
+    height: 11
+    width: 11
+    hitSize: 20
+    splashDamage: 60
+    splashDamageRadius: 96
+    knockback: 0.8
+    speed: 3
+    lifetime: 80
+    collidesTiles: false
+    ammoMultiplier: 1
+    inaccuracy: 5
+
+    reloadMultiplier: 0.01
+
+    status: blasted
+    statusDuration: 20
+
+    fragBullets: 1
+    fragBullet: {
+      type: ArtilleryBulletType
+      height: 11
+      width: 11
+      hitSize: 20
+      splashDamage: 40
+      splashDamageRadius: 96
+      knockback: 0.8
+      speed: 0
+      lifetime: 300
+      collidesTiles: false
+      hitSound: none
+
+      intervalBullets: 1
+      bulletInterval: 15
+
+      intervalBullet: {
+        type: ArtileryBulletType
+        height: 0
+        width: 0
+        splashDamage: 10
+        splashDamageRadius: 60
+        hitSound: none
+
+        buildingDamageMultiplier: 0
+
+        frontColor: 7c60d7
+        backColor: 7457ce
+        hitColor: 7457ce
+        trailColor: 7457ce
+
+        trailEffect: none
+        hitEffect: none
+        despawnEffect: none
+      }
+      frontColor: 7c60d7
+      backColor: 7457ce
+      hitColor: 7457ce
+      trailColor: 7457ce
+
+      trailEffect: none
+      hitEffect: none
+      despawnEffect: none
+    }
+
+    frontColor: 7c60d7
+    backColor: 7457ce
+    hitColor: 7457ce
+    trailColor: 7457ce
+
+    hitEffect: smokeAoeCloud
+  }
 }
