@@ -207,30 +207,34 @@ ammoTypes: {
 
         buildingDamageMultiplier: 0
 
-        frontColor: 7c60d7
-        backColor: 7457ce
-        hitColor: 7457ce
-        trailColor: 7457ce
+        frontColor: eeab89
+        backColor: e9665b
+        hitColor: e9665b
+        trailColor: e9665b
 
-        trailEffect: none
-        hitEffect: none
-        despawnEffect: none
+        trailChance: 0.33
+        trailSize: 8
+
+        hitFfect: none
+        despawnEfect: none
       }
-      frontColor: 7c60d7
-      backColor: 7457ce
-      hitColor: 7457ce
-      trailColor: 7457ce
 
-      trailEffect: none
-      hitEffect: none
-      despawnEffect: none
+    frontColor: eeab89
+    backColor: e9665b
+    hitColor: e9665b
+    trailColor: e9665b
+
+    trailEffect: none
+    hitFfect: none
+    despawnEfect: none
     }
 
-    frontColor: 7c60d7
-    backColor: 7457ce
-    hitColor: 7457ce
-    trailColor: 7457ce
+    frontColor: eeab89
+    backColor: e9665b
+    hitColor: e9665b
+    trailColor: e9665b
 
-    hitEffect: smokeAoeCloud
+    hitFfect: blastExplosion
+    despawnEfect: hitBulletColor
   }
 }
