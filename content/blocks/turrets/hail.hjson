@@ -219,8 +219,8 @@ ammoTypes: {
         hitColor: e9665b
         trailColor: e9665b
 
-        trailChance: 0.33
-        trailSize: 8
+        trailChance: 0.16
+        trailSize: 2
 
         hitFfect: none
         despawnEfect: none
