@@ -175,7 +175,7 @@ ammoTypes: {
     ammoMultiplier: 1
     inaccuracy: 5
 
-    reloadMultiplier: 0.01
+    reloadMultiplier: 1.1
 
     status: blasted
     statusDuration: 20
