@@ -195,18 +195,21 @@ ammoTypes: {
       hitSound: none
 
       intervalBullets: 1
-      bulletInterval: 15
-
+      bulletInterval: 30
+      intervalDelay: 30
       
       intervalBullet: {
-        type: ArtileryBulletType
-        height: 0
-        width: 0
+        type: ArtilleryBulletType
+        height: 4
+        width: 4
+        hitSize: 4
         speed: 1.3
-        
+        lifetime: 60
         splashDamage: 10
         splashDamageRadius: 60
         hitSound: none
+        sticky: true
+        collidesTiles: true
 
         buildingDamageMultiplier: 0
 
