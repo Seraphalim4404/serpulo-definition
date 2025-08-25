@@ -192,7 +192,8 @@ ammoTypes: {
       knockback: 0.8
       speed: 0
       lifetime: 300
-      collidesTiles: false
+      collidesAir: false
+      collidesGround: false
       hitSound: none
 
       intervalBullets: 1
@@ -212,9 +213,10 @@ ammoTypes: {
         hitSound: none
         sticky: true
         collidesTiles: true
+        shrinkY: 0
 
         homingPower: 0.1
-        homingRange: 72
+        homingRange: 196
 
         buildingDamageMultiplier: 0
 
