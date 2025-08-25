@@ -187,7 +187,7 @@ ammoTypes: {
       width: 20
       hitSize: 20
       damage: 20
-      splashDamage: 40
+      splashDamage: 60
       splashDamageRadius: 96
       knockback: 0.8
       speed: 0
@@ -195,6 +195,7 @@ ammoTypes: {
       collidesAir: false
       collidesGround: false
       hitSound: none
+      shrinkY: 0
 
       intervalBullets: 1
       bulletInterval: 15
@@ -203,7 +204,7 @@ ammoTypes: {
       intervalBullet: {
         type: BasicBulletType
         height: 14
-        width: 14
+        width: 21
         hitSize: 14
         speed: 2.3
         lifetime: 120
@@ -219,6 +220,8 @@ ammoTypes: {
         homingRange: 196
 
         buildingDamageMultiplier: 0
+
+        pierceArmor: true
 
         frontColor: eeab89
         backColor: e9665b
