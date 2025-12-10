@@ -152,7 +152,7 @@ ammoTypes: {
     pierceCap: 2
     ammoMultiplier: 1
 
-    weaveScale: 0
+    weaveScale: 0.2
     weaveMag: 0.5
 
     buildingDamageMultiplier: 0.5
