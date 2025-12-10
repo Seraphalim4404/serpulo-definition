@@ -334,6 +334,9 @@ ammoTypes: {
       homingDelay: 16
       homingRange: 512
 
+      weaveScale: 0.0882
+      weaveMag: 1
+
       buildingDamageMultiplier: 0.01
       shieldDamageMultiplier: 2.75
 
