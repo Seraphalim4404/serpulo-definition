@@ -293,8 +293,8 @@ ammoTypes: {
   }
   surge-alloy: {
     type: BasicBulletType
-    height: 0
-    width: 0
+    height: 23
+    width: 23
     hitSize: 24
     splashDamage: 20
     splashDamageRadius: 52
@@ -305,6 +305,9 @@ ammoTypes: {
     ammoMultiplier: 1
     inaccuracy: 80
     shrinkY: 0
+
+    backSprite: "large-bomb-back"
+    sprite: "mine-bullet"
 
     weaveScale: 0
     weaveMag: 0
@@ -360,7 +363,8 @@ ammoTypes: {
     hitColor: f3e979
     trailColor: f3e979
 
-    trailSize: 20
+    trailLength: 30
+    trailWidth: 12
   }
 }
 
