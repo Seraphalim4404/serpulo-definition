@@ -1,4 +1,4 @@
-ammoTypes: {
+pammoTypes: {
   graphite: {
     type: ArtilleryBulletType
     height: 11
@@ -349,7 +349,9 @@ ammoTypes: {
     hitColor: f3e979
     trailColor: f3e979
 
-    trailSize: 40
+    trailLength: 23
+    trailWidth: 23
+    trailChance: 1
   }
 }
 
