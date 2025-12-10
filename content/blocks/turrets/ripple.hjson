@@ -311,7 +311,7 @@ ammoTypes: {
     absorbable: false
 
     reloadMultiplier: 0.01
-    buildingDamageMultiplier: 0.025
+    buildingDamageMultiplier: 0.01
 
     rangeChange: 128
 
@@ -325,7 +325,7 @@ ammoTypes: {
       height: 8
       width: 8
       damage: 25
-      lifetime: 85
+      lifetime: 47.5
       speed: 9
       drag: -0.0075
       shrinkY: 0.008
