@@ -298,8 +298,8 @@ ammoTypes: {
     hitSize: 24
     splashDamage: 20
     splashDamageRadius: 52
-    speed: 0.5
-    drag: 0.01
+    speed: 3
+    drag: 0.025
     lifetime: 600
     collidesTiles: false
     ammoMultiplier: 1
@@ -322,7 +322,8 @@ ammoTypes: {
       speed: 1.5
       shrinkY: 0.008
 
-      homingRange: 430
+      homingDelay: 40
+      homingRange: 150
 
       buildingDamageMultiplier: 0
       status: slow
