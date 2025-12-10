@@ -308,7 +308,7 @@ ammoTypes: {
 
     absorbable: false
 
-    reloadMultiplier: 0.08
+    reloadMultiplier: 0.01
     buildingDamageMultiplier: 0.025
 
     rangeChange: 128
@@ -332,7 +332,7 @@ ammoTypes: {
       homingDelay: 16
       homingRange: 512
 
-      buildingDamageMultiplier: 0
+      buildingDamageMultiplier: 0.01
       status: slow
       statusDuration: 1
 
