@@ -322,6 +322,7 @@ ammoTypes: {
       speed: 1.5
       shrinkY: 0.008
 
+      homingPower: 0.19
       homingDelay: 40
       homingRange: 150
 
@@ -329,16 +330,15 @@ ammoTypes: {
       status: slow
       statusDuration: 5
 
-      frontColor: 7c60d7
-      backColor: 7457ce
-      hitColor: 7457ce
-      trailColor: 7457ce
+      frontColor: ffffff
+      backColor: f3e979
+      hitColor: f3e979
+      trailColor: f3e979
 
       trailLength: 3
       trailWidth: 2
       trailChance: 0.033
 
-      trailEffect: vaporSmall
       hitEffect: none
       despawnEffect: none
     }
