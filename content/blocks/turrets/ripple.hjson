@@ -293,8 +293,8 @@ ammoTypes: {
   }
   surge-alloy: {
     type: ArtilleryBulletType
-    height: 23
-    width: 23
+    height: 0
+    width: 0
     hitSize: 24
     splashDamage: 20
     splashDamageRadius: 52
