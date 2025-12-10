@@ -299,7 +299,7 @@ ammoTypes: {
     splashDamage: 20
     splashDamageRadius: 52
     speed: 3
-    drag: 0.025
+    drag: 0.01
     lifetime: 600
     collidesTiles: false
     ammoMultiplier: 1
@@ -308,6 +308,8 @@ ammoTypes: {
 
     reloadMultiplier: 0.0075
     buildingDamageMultiplier: 0.025
+
+    rangeChange: 128
 
     intervalBullets: 1
     bulletInterval: 17.5
