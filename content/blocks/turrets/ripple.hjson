@@ -351,6 +351,7 @@ ammoTypes: {
 
     trailLength: 23
     trailWidth: 23
+    trailSize: 32
   }
 }
 
