@@ -168,7 +168,7 @@ ammoTypes: {
       width: 16
       hitSize: 5
       damage: 60
-      speed: 8
+      speed: -8
       pierce: true
       pierceBuilding: true
       pierceCap: 2
