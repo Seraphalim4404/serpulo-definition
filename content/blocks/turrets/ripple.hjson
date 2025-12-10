@@ -1,4 +1,4 @@
-pammoTypes: {
+ammoTypes: {
   graphite: {
     type: ArtilleryBulletType
     height: 11
