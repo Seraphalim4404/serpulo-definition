@@ -307,7 +307,7 @@ ammoTypes: {
     shrinkY: 0
 
     weaveScale: 0.0882
-    weaveMag: 1
+    weaveMag: 0.02
     absorbable: false
 
     reloadMultiplier: 0.01
@@ -335,7 +335,7 @@ ammoTypes: {
       homingRange: 512
 
       weaveScale: 0.0882
-      weaveMag: 1
+      weaveMag: 0.33
 
       buildingDamageMultiplier: 0.01
       shieldDamageMultiplier: 2.75
