@@ -1,4 +1,4 @@
-trackingRange: 312
+trackingRange: 310
 reload: 5.75
 shoot: {
   type: shootAlternate
