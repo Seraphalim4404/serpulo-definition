@@ -318,13 +318,13 @@ ammoTypes: {
       height: 8
       width: 8
       damage: 25
-      lifetime: 40
-      speed: 5
+      lifetime: 85
+      speed: 9
       drag: -0.0075
       shrinkY: 0.008
 
       homingPower: 0.19
-      homingDelay: 40
+      homingDelay: 16
       homingRange: 150
 
       buildingDamageMultiplier: 0
@@ -349,7 +349,7 @@ ammoTypes: {
     hitColor: f3e979
     trailColor: f3e979
 
-    trailSize: 11
+    trailSize: 40
   }
 }
 
