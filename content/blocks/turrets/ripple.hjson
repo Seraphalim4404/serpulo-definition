@@ -292,7 +292,7 @@ ammoTypes: {
     despawnEfect: hitBulletColor
   }
   surge-alloy: {
-    type: BasicBulletType
+    type: ArtilleryBulletType
     height: 23
     width: 23
     hitSize: 24
@@ -305,9 +305,6 @@ ammoTypes: {
     ammoMultiplier: 1
     inaccuracy: 80
     shrinkY: 0
-
-    backSprite: "large-bomb-back"
-    sprite: "mine-bullet"
 
     weaveScale: 0
     weaveMag: 0
@@ -363,8 +360,7 @@ ammoTypes: {
     hitColor: f3e979
     trailColor: f3e979
 
-    trailLength: 30
-    trailWidth: 12
+    trailSize: 30
   }
 }
 
