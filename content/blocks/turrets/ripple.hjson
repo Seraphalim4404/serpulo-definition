@@ -306,8 +306,8 @@ ammoTypes: {
     inaccuracy: 80
     shrinkY: 0
 
-    weaveScale: 0.0882
-    weaveMag: 0.02
+    weaveScale: 0
+    weaveMag: 0
     absorbable: false
 
     reloadMultiplier: 0.01
@@ -334,8 +334,8 @@ ammoTypes: {
       homingDelay: 16
       homingRange: 512
 
-      weaveScale: 0.0882
-      weaveMag: 0.33
+      weaveScale: 0.08
+      weaveMag: 0.05
 
       buildingDamageMultiplier: 0.01
       shieldDamageMultiplier: 2.75
@@ -360,7 +360,8 @@ ammoTypes: {
     hitColor: f3e979
     trailColor: f3e979
 
-    trailSize: 20
+    trailSizeTo: 20
+    trailSizeFrom: 2
     trailInterval: 0
   }
 }
