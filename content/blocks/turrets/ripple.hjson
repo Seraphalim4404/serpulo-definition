@@ -291,4 +291,56 @@ ammoTypes: {
     hitEffect: blastExplosion
     despawnEfect: hitBulletColor
   }
+  surge-alloy: {
+    type: ArtilleryBulletType
+    height: 18
+    width: 18
+    hitSize: 24
+    splashDamage: 20
+    splashDamageRadius: 52
+    speed: 0.5
+    drag: 0.01
+    lifetime: 600
+    collidesTiles: false
+    ammoMultiplier: 1
+    inaccuracy: 80
+
+    reloadMultiplier: 0.2
+    buildingDamageMultiplier: 0.025
+
+    intervalBullets: 1
+    bulletInterval: 40
+
+    intervalSpread: 360
+    intervalRandomSpread: 360
+    intervalBullet: {
+      type: BasicBulletType
+      height: 8
+      width: 8
+      damage: 25
+      lifetime: 40
+      speed: 1.5
+      shrinkY: 0.008
+
+      homingRange: 430
+
+      buildingDamageMultiplier: 0
+      status: slow
+      statusDuration: 5
+
+      frontColor: 7c60d7
+      backColor: 7457ce
+      hitColor: 7457ce
+      trailColor: 7457ce
+
+      trailLength: 3
+      trailWidth: 2
+      trailChance: 0.033
+
+      trailEffect: vaporSmall
+      hitEffect: none
+      despawnEffect: none
+    }
+  }
 }
+
