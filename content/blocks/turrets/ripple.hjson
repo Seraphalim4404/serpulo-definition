@@ -292,7 +292,7 @@ ammoTypes: {
     despawnEfect: hitBulletColor
   }
   surge-alloy: {
-    type: ArtilleryBulletType
+    type: BasicBulletType
     height: 0
     width: 0
     hitSize: 24
@@ -360,9 +360,7 @@ ammoTypes: {
     hitColor: f3e979
     trailColor: f3e979
 
-    trailSizeTo: 20
-    trailSizeFrom: 2
-    trailInterval: 0
+    trailSize: 20
   }
 }
 
