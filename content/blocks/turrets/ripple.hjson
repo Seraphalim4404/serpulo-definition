@@ -349,8 +349,7 @@ ammoTypes: {
     hitColor: f3e979
     trailColor: f3e979
 
-    trailLength: 11
-    trailWidth: 11
+    trailSize: 11
   }
 }
 
