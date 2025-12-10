@@ -306,8 +306,8 @@ ammoTypes: {
     inaccuracy: 80
     shrinkY: 0
 
-    weaveScale: 0.22
-    weaveMag: 2
+    weaveScale: 0.0882
+    weaveMag: 1
     absorbable: false
 
     reloadMultiplier: 0.01
