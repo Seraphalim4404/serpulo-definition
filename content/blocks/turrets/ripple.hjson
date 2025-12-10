@@ -304,6 +304,7 @@ ammoTypes: {
     collidesTiles: false
     ammoMultiplier: 1
     inaccuracy: 80
+    shrinkY: 0
 
     reloadMultiplier: 0.2
     buildingDamageMultiplier: 0.025
@@ -349,9 +350,8 @@ ammoTypes: {
     hitColor: f3e979
     trailColor: f3e979
 
-    trailLength: 23
-    trailWidth: 23
-    trailSize: 32
+    trailSize: 20
+    trailChance: 1
   }
 }
 
