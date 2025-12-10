@@ -306,7 +306,9 @@ ammoTypes: {
     inaccuracy: 80
     shrinkY: 0
 
-    reloadMultiplier: 0.0075
+    absorbable: false
+
+    reloadMultiplier: 0.08
     buildingDamageMultiplier: 0.025
 
     rangeChange: 128
