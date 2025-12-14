@@ -162,6 +162,38 @@ ammoTypes: {
 
     makeFire: true
 
+    intervalBullets: 1
+    bulletInterval: 17.5
+
+    intervalSpread: 360
+    intervalRandomSpread: 360
+    intervalBullet: {
+      type: BasicBulletType
+      height: 0
+      width: 0
+      damage: 25
+      lifetime: 90
+      speed: 9
+      drag: -0.0075
+      shrinkY: 0.008
+
+      homingPower: 0.19
+      homingDelay: 16
+      homingRange: 256
+
+      weaveScale: 0.08
+      weaveMag: 0.05
+
+      buildingDamageMultiplier: 0.01
+      shieldDamageMultiplier: 2.75
+
+      frontColor: f8ad42
+      backColor: f68021
+      hitColor: f68021
+
+      hitEffect: none
+      despawnEffect: none
+    }
     frontColor: f8ad42
     backColor: f68021
     hitColor: f68021
@@ -324,10 +356,11 @@ ammoTypes: {
       type: BasicBulletType
       height: 8
       width: 8
+      hitSize: 3
       damage: 25
       lifetime: 90
-      speed: 9
-      drag: -0.0075
+      speed: 4.5
+      drag: -0.0125
       shrinkY: 0.008
 
       pierce: true
