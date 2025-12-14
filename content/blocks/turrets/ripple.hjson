@@ -168,7 +168,7 @@ ammoTypes: {
     intervalAngle: 180
     intervalRandomSpread: 40
     intervalBullet: {
-      type: ArtilleryBulletType
+      type: BasicBulletType
       height: 1
       width: 1
       splashDamage: 8
@@ -176,7 +176,7 @@ ammoTypes: {
       lifetime: 40
 
       lifeScaleRandMax: 1.3
-      lifeScaleRandMin: 0.2
+      lifeScaleRandMin: 0.12
 
       collidesTiles: false
       speed: 0.95
