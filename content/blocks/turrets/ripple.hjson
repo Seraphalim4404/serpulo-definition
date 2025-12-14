@@ -180,8 +180,8 @@ ammoTypes: {
 
       speed: 3
 
-      status: fire
-      statusDuration: 60
+      status: burning
+      statusDuration: 100
 
       makeFire: true
 
