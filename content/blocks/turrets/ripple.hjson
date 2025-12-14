@@ -173,12 +173,13 @@ ammoTypes: {
       width: 1
       splashDamage: 8
       splashDamageRadius: 9
-      lifetime: 60
+      lifetime: 40
 
       lifeScaleRandMax: 1.3
       lifeScaleRandMin: 0.2
 
-      speed: 3
+      speed: 0.95
+      shrinkY: 0.025
 
       status: burning
       statusDuration: 100
@@ -189,7 +190,9 @@ ammoTypes: {
       backColor: f68021
       hitColor: f68021
 
-      trailEffect: incendTrail
+      hitSound: none
+
+      trailEffect: none
       hitEffect: none
       despawnEffect: none
     }
