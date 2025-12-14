@@ -177,7 +177,7 @@ ammoTypes: {
       lifeScaleRandMax: 1.3
       lifeScaleRandMin: 0.12
 
-      collidesTiles: false
+  
       speed: 0.95
       shrinkY: 0.025
 
