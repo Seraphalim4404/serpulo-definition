@@ -171,8 +171,7 @@ ammoTypes: {
       type: BasicBulletType
       height: 1
       width: 1
-      splashDamage: 8
-      splashDamageRadius: 9
+      damage: 8
       lifetime: 40
 
       lifeScaleRandMax: 1.3
