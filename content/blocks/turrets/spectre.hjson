@@ -89,6 +89,9 @@ ammoTypes: {
     knockback: 1.2
     ammoMultiplier: 8
 
+    weaveMag: 0.3
+    weaveScale: 0.4
+
     pierce: true
     pierceCap: 4
     pierceDamageFactor: 0.2
