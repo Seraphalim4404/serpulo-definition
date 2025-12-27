@@ -1,1 +1,47 @@
+ammoPerShot: 10
+ammoTypes: {
+  phase-fabric: {
+    type: RailBulletType
+    reflectable: true
+    length: 500
+    damage: 375
+    hitShake: 4
+    pointEffectSpace: 20
+    maxDamageFraction: 0.4
+    pierceDamageFactor: 1
+    pierceArmor: true
 
+    buildingDamageMultiplier: 0.4
+      
+    reloadMultiplier: 1.6
+    ammoMultiplier: 1
+      
+    shootEffect: instShoot
+    hitEffect: instHit
+    pierceEffect: railHit
+    smokeEffect: smokeCloud
+    pointEffect: instTrail
+    despawnEffect: instBomb
+  }
+  surge-alloy: {
+    type: RailBulletType
+    reflectable: true
+    length: 500
+    damage: 1350
+    hitShake: 4
+    pointEffectSpace: 20
+    maxDamageFraction: 0.6
+    pierceDamageFactor: 0.5
+      
+    buildingDamageMultiplier: 0.2
+      
+    ammoMultiplier: 1
+      
+    shootEffect: instShoot
+    hitEffect: instHit
+    pierceEffect: railHit
+    smokeEffect: smokeCloud
+    pointEffect: instTrail
+    despawnEffect: instBomb
+  }
+}
