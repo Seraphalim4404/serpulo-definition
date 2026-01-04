@@ -1,3 +1,4 @@
+ammoPerShot: 4
 ammoTypes: {
   graphite: {
     type: ArtilleryBulletType
@@ -10,7 +11,7 @@ ammoTypes: {
     speed: 3
     lifetime: 80
     collidesTiles: false
-    ammoMultiplier: 3
+    ammoMultiplier: 2
 
     frontColor: 7d89d8
     backColor: dae1ee
@@ -211,12 +212,12 @@ ammoTypes: {
     width: 14
     hitSize: 20
     splashDamage: 72
-    splashDamageRadius: 43
+    splashDamageRadius: 85
     knockback: 1
     speed: 2
     lifetime: 120
     collidesTiles: false
-    ammoMultiplier: 3
+    ammoMultiplier: 1
 
     status: blasted
     statusDuration: 720
@@ -226,8 +227,8 @@ ammoTypes: {
     hitColor: e9665b
     trailColor: e9665b
 
-    hitFfect: blastExplosion
-    despawnEfect: hitBulletColor
+    hitEffect: blastExplosion
+    despawnEffect: hitBulletColor
   }
   plastanium: {
     type: ArtilleryBulletType
@@ -240,7 +241,7 @@ ammoTypes: {
     speed: 3.4
     lifetime: 80
     collidesTiles: false
-    ammoMultiplier: 1
+    ammoMultiplier: 2
 
     fragLifeMin: 0.5
     fragLifeMax: 1
